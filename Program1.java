@@ -10,9 +10,13 @@ class Program1
     }
     else
     {
-      if ()
+      if ((N >= 2 && N <= 6) || (N > 20))
       {
-        System.out.println();
+        System.out.println("Weird");
+      }
+      else if (N >= 6 && N <= 20)
+      {
+        System.out.println("Not Weird");
       }
     }
 
