@@ -1,0 +1,252 @@
+/*
+-   
+-   https://github.com/MayankDevil/
+-   Developed by Mayank
+-   HTML : ./index.html
+*/
+*{
+    margin:0;
+    padding: 0;
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji";
+    color:var(--gary);
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+:root
+{
+    --white: #fffbfb;
+    --black:#000000;
+    --blue:#17a2b8;
+    --red:#fc5c65;
+    --green:#16a085;
+    --gold:#ffbe76;
+    --dark:#343a40;
+    --light:#f8f9fa;
+    --gray:#6c757d;
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb
+{
+    background: var(--dark);
+}
+/*
+    comman css -----------------
+*/
+.container
+{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1
+{
+    color: var(--black);
+    font-weight: normal;
+    line-height: 2.5rem;
+}
+h2
+{
+    padding: 1rem;
+    font-weight: normal;
+    color: var(--black);
+}
+h3
+{
+    padding: 1rem;
+    font-weight: normal;
+}
+p
+{
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color:var(--dark);
+}
+img
+{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    object-fit: contain;
+}
+.btn
+{
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1rem;
+    color: var(--light);
+    background: var(--red);
+    border-radius: 1rem;
+}
+.btn:hover
+{
+    opacity: 0.8;
+}
+/*
+    header css ------------------
+*/
+#header
+{
+    margin: 3rem auto;
+    /* background: var(--light); */
+}
+#header > .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+#header .container #brand-name
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:var(--dark)
+}
+#header .container #nav a
+{
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color:var(--blue);
+}
+#header .container #nav a:hover
+{
+    color:var(--red);
+}
+/*
+    introduction css --------------
+*/
+#intro
+{
+    margin: 3rem auto;
+}
+#intro > .container
+{
+    padding: 1rem 2rem;
+    background: var(--gold);
+    border-radius: 1rem;
+}
+#intro .container .row
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#intro .container .row .col:first-child
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+/*
+    feature css ----------------------
+*/
+#feature
+{
+    margin: 3rem auto;
+}
+#feature > .container
+{
+    padding: 1rem;
+    background: var(--light);
+    border-radius: 1rem;
+}
+#feature .container .row
+{
+    display: grid;
+    grid-gap:1rem;
+    grid-template-columns: repeat(3,1fr);
+    padding: 1rem;
+}
+#feature .container .row .col-4
+{
+    padding: 1rem;
+    border:3px solid var(--green);
+    border-radius: 1rem;
+}
+#feature .container .row .col-4:hover
+{
+    box-shadow: 2px 2px 10px var(--gray);
+}
+/*
+    about css ------------------------
+*/
+#about
+{
+    margin:3rem auto;
+}
+#about .container .row
+{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+#about .container .row .col:last-child
+{
+    /* display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    */
+    padding: 1rem;
+    border-left: 1px dotted var(--blue);
+}
+#about .container .row .col .btn
+{
+    margin: 1rem;
+}
+/*
+    search css -----------------------
+*/
+#search
+{
+    margin: 3rem auto;
+    /* background: var(--gold); */
+}
+#search > .container
+{
+    display: flex;
+}
+#searchBar
+{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--red);
+    border: 1px solid var(--blue);
+    background:transparent;
+}
+/*
+    footer css -----------------------
+*/
+#footer
+{
+    margin: 3rem auto;
+}
+#footer > .container
+{
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color:var(--black);
+    /* border-top: 1px dotted var(--gray); */
+}
+#footer .brand-name
+{
+    font-weight: bold;
+    color: var(--blue);
+}
+#footer .author
+{
+    font-weight: 600;
+    color:var(--red);
+}
+/*
+    the end ==========================
+*/
