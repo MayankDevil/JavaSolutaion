@@ -5,6 +5,7 @@
 -   HTML : ./index.html
 */
 *{
+    user-select: none;
     margin:0;
     padding: 0;
     font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji";
@@ -34,6 +35,16 @@
 ::-webkit-scrollbar-thumb
 {
     background: var(--dark);
+}
+::placeholder
+{
+    color:var(--gold);
+    font-weight: bold;
+}
+::selection
+{
+    color:var(--light);
+    background: var(--red);
 }
 /*
     comman css -----------------
@@ -85,7 +96,8 @@ img
 }
 .btn:hover
 {
-    opacity: 0.8;
+    opacity: 0.9;
+    box-shadow: 1px 1px 5px var(--gray);
 }
 /*
     header css ------------------
@@ -93,7 +105,6 @@ img
 #header
 {
     margin: 3rem auto;
-    /* background: var(--light); */
 }
 #header > .container
 {
@@ -132,6 +143,7 @@ img
     padding: 1rem 2rem;
     background: var(--gold);
     border-radius: 1rem;
+    box-shadow: 1px 1px 5px var(--gray);
 }
 #intro .container .row
 {
@@ -150,11 +162,11 @@ img
 #feature
 {
     margin: 3rem auto;
+    background: var(--light);
 }
 #feature > .container
 {
     padding: 1rem;
-    background: var(--light);
     border-radius: 1rem;
 }
 #feature .container .row
@@ -189,10 +201,6 @@ img
 }
 #about .container .row .col:last-child
 {
-    /* display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    */
     padding: 1rem;
     border-left: 1px dotted var(--blue);
 }
@@ -206,21 +214,61 @@ img
 #search
 {
     margin: 3rem auto;
-    /* background: var(--gold); */
 }
 #search > .container
 {
     display: flex;
+    border-radius: 1rem;
+    background:var(--black);
+    box-shadow: 1px 1px 5px var(--dark);
 }
-#searchBar
+#search #bar
 {
     width: 100%;
     padding: 1rem;
-    text-align: center;
     font-size: 1rem;
-    color: var(--red);
-    border: 1px solid var(--blue);
-    background:transparent;
+    color: var(--blue);
+    background: transparent;
+    border-radius: 0 1rem 1rem 0;
+}
+#search #pointer
+{
+    padding: 1rem;
+    color:var(--red);
+    font-weight: bold;
+    background: transparent;
+    border-radius:  1rem 0 0 1rem;
+}
+/*
+    content css ----------------------
+*/
+#content .container details
+{
+    margin: 1rem auto;
+    background: var(--light);
+    border-radius: 1rem;
+}
+#content .container details summary
+{
+    padding: 1rem;
+    border-radius: 1rem;
+    background:var(--gold);
+}
+#content .container details summary div
+{
+    padding: 1rem 0;
+}
+#content .container details div .console
+{
+    user-select: text;
+    margin: 2rem 1rem;
+    color: var(--black);
+}
+#content .container details div .output
+{
+    padding: 1rem;
+    line-height: 2rem;
+    color:var(--red);
 }
 /*
     footer css -----------------------
@@ -235,11 +283,12 @@ img
     font-size: 1rem;
     text-align: center;
     color:var(--black);
-    /* border-top: 1px dotted var(--gray); */
+    border-top: 1px dotted var(--gray);
 }
 #footer .brand-name
 {
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-size: 1.2rem;
     color: var(--blue);
 }
 #footer .author
