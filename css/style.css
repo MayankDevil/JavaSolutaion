@@ -1,8 +1,8 @@
 /*
--   
+-   JavaSolution
 -   https://github.com/MayankDevil/
 -   Developed by Mayank
--   HTML : ./index.html
+-   CSS : ./css/style.css
 */
 *{
     user-select: none;
@@ -242,6 +242,11 @@ img
 /*
     content css ----------------------
 */
+/* #content .container
+{
+    padding: 1rem;
+    border: 1px solid green;
+} */
 #content .container details
 {
     margin: 1rem auto;
@@ -251,6 +256,7 @@ img
 #content .container details summary
 {
     padding: 1rem;
+    line-height: 2rem;
     border-radius: 1rem;
     background:var(--gold);
 }
