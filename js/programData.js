@@ -13,7 +13,7 @@ try
         {
             problem : `Program to write hello world in Java Language.`,
             solution : `class Test \n{ \n\tpublic static void main(String args[])\n\t{ \n\t\tSystem.out.println("hello world"); \n\t}\n}`,
-            comeout : `javac source.java \n java bytecode \n hello world`
+            comeout : ` hello world`
         },
         {
             problem : `18. Create a simple AWT application design a calculator that displays buttons, TextField with GridLayout manager.`,
@@ -170,7 +170,7 @@ class Calculator extends java.awt.Frame
 }
 // the end ---
             `,
-            comeout : `javac source.java\njava bytecode`
+            comeout : `Calculator execute ...`
         },
         {
             problem : `13. Write a Java method that checks whether all the characters in a given string are vowels (a, e,i,o,u) or not. Return true if each character in the string is a vowel, otherwise return false. `,
@@ -196,7 +196,7 @@ class Test
     }
 }
             `,
-            comeout : `javac source.java\njava bytecode\nfalse\ntrue`
+            comeout : `false\ntrue`
         },
         {
             problem : `26. Write a Java program to create an abstract class GeometricShape with abstract methods area() and perimeter(). Create subclasses Triangle and Square that extend the GeometricShape class and implement the respective methods to calculate the area and perimeter of each shape.`,
@@ -268,29 +268,313 @@ class Test
             comeout : `Triangle Area: 6.0\nTriangle Perimeter: 12.0\nSquare Area: 6.25\nSquare Perimeter: 10.0`
         },
         {
-            problem : ``,
-            solution : ``,
+            problem : `11. Write a Java program to create an interface Sortable with a method sort (int[] array) that sorts an array of integers in descending order. Create two classes QuickSort and MergeSort that implement the Sortable interface and provide their own implementations of the sort() method.`,
+            solution : `
+interface Sortable
+{
+    void sort(int[] array);
+}
+
+class QuickSort implements Sortable
+{
+    // @Override
+    public void sort(int[] array)
+    {
+        quickSort(array, 0, array.length - 1);
+    }
+    private void quickSort(int[] array, int low, int high)
+    {
+        if (low < high)
+        {
+            int pivotIndex = partition(array, low, high);
+            quickSort(array, low, pivotIndex - 1);
+            quickSort(array, pivotIndex + 1, high);
+        }
+    }
+    private int partition(int[] array, int low, int high)
+    {
+        int pivot = array[high];
+        int i = low - 1;
+        for (int j = low; j < high; j++)
+            if (array[j] >= pivot) {
+                i++;
+                int temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+
+        int temp = array[i + 1];
+        array[i + 1] = array[high];
+        array[high] = temp;
+        return i + 1;
+    }
+}
+
+class MergeSort implements Sortable
+{
+    // @Override
+    public void sort(int[] array)
+    {
+        mergeSort(array, 0, array.length - 1);
+    }
+    private void mergeSort(int[] array, int left, int right)
+    {
+        if (left < right)
+        {
+            int mid = left + (right - left) / 2;
+            mergeSort(array, left, mid);
+            mergeSort(array, mid + 1, right);
+            merge(array, left, mid, right);
+        }
+    }
+    private void merge(int[] array, int left, int mid, int right)
+    {
+        int n1 = mid - left + 1;
+        int n2 = right - mid;
+
+        int[] leftArray = new int[n1];
+        int[] rightArray = new int[n2];
+
+        for (int i = 0; i < n1; i++)
+        {
+            leftArray[i] = array[left + i];
+        }
+        for (int j = 0; j < n2; j++)
+        {
+            rightArray[j] = array[mid + 1 + j];
+        }
+        int i = 0, j = 0, k = left;
+        
+        while (i < n1 && j < n2)
+        {
+            if (leftArray[i] >= rightArray[j]) {
+                array[k] = leftArray[i];
+                i++;
+            } else {
+                array[k] = rightArray[j];
+                j++;
+            }
+            k++;
+        }
+        while (i < n1)
+        {
+            array[k] = leftArray[i];
+            i++;
+            k++;
+        }
+        while (j < n2)
+        {
+            array[k] = rightArray[j];
+            j++;
+            k++;
+        }
+    }
+}
+
+class Test
+{
+    public static void main(String[] args)
+    {
+        int[] arr = {5, 1, 9, 3, 7, 6};
+        
+        Sortable quickSort = new QuickSort();
+        quickSort.sort(arr);
+        System.out.print("QuickSort: ");
+        printArray(arr);
+
+        int[] arr2 = {5, 1, 9, 3, 7, 6};
+
+        Sortable mergeSort = new MergeSort();
+        mergeSort.sort(arr2);
+        System.out.print("MergeSort: ");
+        printArray(arr2);
+    }
+    private static void printArray(int[] array)
+    {
+        for (int num : array) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+    }
+}
+            `,
             comeout : ``
         },
         {
-            problem : ``,
-            solution : ``,
+            problem : `32. Write a Java program to create a class called Student with private instance variables student_id, student_name, and grades. Provide public getter and setter methods to access and modify the student_id and student_name variables. However, provide a method called addGrade() that allows adding a grade to the grades variable while performing additional validation. `,
+            solution : `
+class Test
+{
+    public static void main(String args[])
+    {
+        Student student = new Student();
+
+        student.addGrade(12);
+        student.addGrade(12); 
+        student.addGrade(12);
+
+        student.setStudentId("7027/21");
+        student.setStudentName("Mayank");
+
+        System.out.println(student.getStudentId());
+        System.out.println(student.getStudentName());
+        
+        student.displayGrade();
+    }
+}
+class Student
+{
+    private String student_id;
+    private String student_name;
+    private int index, mark[] = new int[3];
+
+    public void setStudentId(String id)
+    {
+        student_id = id;
+    }
+    public void setStudentName(String name)
+    {
+        student_name = name;
+    }
+    public void addGrade(int m)
+    {
+        if (index < mark.length)
+        {
+            mark[index++] = m;
+        }
+        else
+        {
+            System.out.println("index out of bounds");
+        }
+    }
+    public String getStudentId()
+    {
+        return student_id;
+    }
+    public String getStudentName()
+    {
+        return student_name;
+    }
+    public void displayGrade()
+    {
+        for (int n : mark)
+            System.out.println(n);
+    }
+}
+            `,
             comeout : ``
         },
         {
-            problem : ``,
-            solution : ``,
-            comeout : ``
+            problem : `10. Create a Java program to create a package with public class and public members to be accessed in another class. `,
+            solution : `
+package mayankpackage;
+
+public class MyClass
+{
+    public int rollno = 7027;
+
+    public void publicMethod()
+    {
+        System.out.println("if you are like follow me https://github.com/MayankDevil/");
+    }
+}
+class Test
+{
+    public static void main(String[] args)
+    {
+        mayankpackage.MyClass my = new myPackage.MyClass();
+    
+        System.out.println("Mayank rollno is " + my.rollno);
+    
+        my.publicMethod();
+    }
+}
+            `,
+            comeout : `Mayank rollno is 7027\nif you are like follow me https://github.com/MayankDevil/`
         },
         {
-            problem : ``,
-            solution : ``,
-            comeout : ``
+            problem : `50. Create an object StringBuffer class to show functionality of insert, append, delete and replace functions.`,
+            solution : `
+class Test
+{
+    public static void main(String args[])
+    {
+        StringBuffer string_buffer = new StringBuffer("write");
+
+        /* [ insert ] */
+
+        // System.out.println(new StringBuffer(" if just use ").toString());
+
+        string_buffer.insert(5,"\n inbuild function insert() ");
+
+
+        /* [ append ] */ 
+
+        string_buffer.append("\n If you are like follow me at https://github.com/MayankDevil/ ");
+
+        // System.out.println(string_buffer.toString());
+        
+        /* [ replace ] */ 
+
+        string_buffer.replace(0,5,"wrong");
+
+        /* [ delete ] */
+
+        string_buffer.delete(5,20);
+
+        /* [ display ] */ 
+
+        System.out.println(string_buffer);
+    }
+}
+            `,
+            comeout : `wrongion insert()\nIf you are like follow me at https://github.com/MayankDevil/`
         },
         {
-            problem : ``,
-            solution : ``,
-            comeout : ``
+            problem : `13. Program to determine whether a given matrix is a sparse matrix `,
+            solution : `
+class Test
+{
+    // A sparse matrix is a matrix in which most of the elements are zero. 
+
+    public static boolean matrix(int[][] matrix, double range)
+    {
+        int zeroElements = 0;
+        int totalElements = matrix.length * matrix[0].length;
+        
+        if (matrix.length == 0 || matrix[0].length == 0)
+            return false;
+
+        for (int[] row : matrix)
+            for (int element : row)
+                if (element == 0)
+                    zeroElements++;
+                
+        double zeroPercentage = (double) zeroElements / totalElements;
+
+        return zeroPercentage >= range;
+    }
+    public static void main(String[] args)
+    {
+        int[][] matrix = {
+            {0, 0, 0, 0},
+            {0, 5, 0, 0},
+            {0, 0, 0, 0}
+        };
+        double range = 0.9;
+
+        if (matrix(matrix, range))
+        {
+            System.out.println("The matrix is sparse.");
+        }
+        else
+        {
+            System.out.println("The matrix is not sparse.");
+        }
+    }
+}
+            `,
+            comeout : `The matrix is sparse.`
         },
         {
             problem : ``,
