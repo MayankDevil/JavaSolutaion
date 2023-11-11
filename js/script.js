@@ -8,8 +8,13 @@ try
 {
     let content = document.querySelector("#content .container")
 
-    // let content = document.getElementById('content')
+    let searchBar = document.querySelector(" #search #bar ")
 
+    /*
+        --------------------------------------------------------------------
+        [ program data display ] function return layout
+        --------------------------------------------------------------------
+    */
     function programDataDisplay(index)
     {
         return (`
@@ -24,21 +29,45 @@ try
             </details>
         `)
     }
-
+    /*
+        --------------------------------------------------------------------
+        | program data loop to length |
+        --------------------------------------------------------------------
+    */
     for (let i = 0; i < programData.length; i++)
     {
         content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay(i)} </div>`)
     }
-
-    let searchBar = document.querySelector(" #search #bar ")
-
-    var i = 1;
-
+    document.title = "MayankDevil"
+    
+    /*
+        --------------------------------------------------------------------
+        [ searchbar ] on keypress match sub in data display else none
+        --------------------------------------------------------------------
+    */ 
     searchBar.onkeyup = function()
     {
-        console.log(i++)
-    }
+        let search = searchBar.value.toUpperCase();
 
+        let data_list = document.querySelectorAll('#content .container details')
+        
+        for(let i = 0; i < data_list.length; i++)
+        {
+            element = data_list[i].querySelector("summary")
+
+            let  data = element.innerContent || element.innerHTML
+
+            if(data.toUpperCase().indexOf(search) > -1)
+            {
+                data_list[i].style.display = '';
+            }
+            else
+            {
+                data_list[i].style.display = 'none';
+            }
+        }
+    }
+    //  =====================================================================
 }
 catch(error)
 {
