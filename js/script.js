@@ -31,11 +31,15 @@ try
     }
     /*
         --------------------------------------------------------------------
-        | program data loop to length |
+        | program data loop to length OR title set |
         --------------------------------------------------------------------
     */
     for (let i = 0; i < programData.length; i++)
     {
+        if (i == 0)
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /*  basic program */ </h4>`)
+        }
         content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay(i)} </div>`)
     }
     document.title = "MayankDevil"

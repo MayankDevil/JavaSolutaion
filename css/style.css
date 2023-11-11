@@ -71,6 +71,12 @@ h3
     padding: 1rem;
     font-weight: normal;
 }
+h4
+{
+    padding: 1rem;
+    text-align: right;
+    color:var(--green);
+}
 p
 {
     padding: 1rem;
@@ -239,7 +245,7 @@ img
     font-size: 1rem;
     font-weight: bold;
     color: var(--blue);
-    background:transparent;
+    background:var(--white);
     border: 1px groove var(--red);
     border-radius: 2rem;
 }
