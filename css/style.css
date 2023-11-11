@@ -38,8 +38,7 @@
 }
 ::placeholder
 {
-    color:var(--gold);
-    font-weight: bold;
+    color:var(--red);
 }
 ::selection
 {
@@ -224,29 +223,25 @@ img
 */
 #search
 {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
     padding: 1rem;
-    background:  linear-gradient(transparent, rgba(241, 238, 238, 0.8));
+    background:var(--black);
 }
 #search > .container
 {
-    margin:1rem auto;
-    display: flex;
     width: 100%;
-    border-radius: 1rem;
-    background:var(--black);
-    box-shadow: 1px 1px 5px var(--dark);
+    margin:1rem auto;
 }
 #search #bar
 {
     width: 100%;
-    padding: 1rem;
+    padding:1rem 10px;
+    text-align: center;
     font-size: 1rem;
+    font-weight: bold;
     color: var(--blue);
-    background: transparent;
-    border-radius: 0 1rem 1rem 0;
+    background:transparent;
+    border: 1px groove var(--red);
+    border-radius: 2rem;
 }
 #search #pointer
 {
@@ -256,23 +251,17 @@ img
     background: transparent;
     border-radius:  1rem 0 0 1rem;
 }
-/* #serach .container #bar:focus #search
-{
-    background: green;
-} */
 /*
     content css ----------------------
 */
-/* #content .container
+#content
 {
-    padding: 1rem;
-    border: 1px solid green;
-} */
+    margin: 3rem auto;
+}
 #content .container details
 {
     margin: 1rem auto;
     background: var(--light);
-    border-radius: 1rem;
 }
 #content .container details:hover
 {
@@ -281,8 +270,7 @@ img
 #content .container details summary
 {
     padding: 1rem;
-    line-height: 2rem;
-    border-radius: 5px;
+    line-height: 1.5rem;
     background:var(--gold);
 }
 #content .container details summary div
@@ -293,8 +281,8 @@ img
 {
     user-select: text;
     margin: 2rem 1rem;
-    font-size: 14px;
-    font-family:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    /* font-size: 14px; */
+    /* font-family:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
     color: var(--black);
 }
 #content .container details div .output
@@ -389,18 +377,19 @@ img
     {
         grid-template-columns: 1fr;
     }
+    #about .container .row .col:first-child
+    {
+        height: 80%;
+    }
     #about .container .row .col:last-child
     {
         border-left: 3px dotted var(--blue);
-    }
-    #about .container .row .col:last-child
-    {
         grid-row:1/2;
         padding: 0;
     }
-    #footer
+    #content .container
     {
-        margin-top: -5rem;
+        padding:0 1rem;
     }
 }
 @media screen and (max-width:600px)
@@ -438,9 +427,13 @@ img
     {
         grid-row:2/3;
     }
-    #footer
+    #search > .container
     {
-        margin-top: 0;
+        padding: 0 1rem;
+    }
+    #content .container
+    {
+        padding:0 10px;
     }
     #footer > .container
     {
