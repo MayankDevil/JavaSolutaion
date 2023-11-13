@@ -10,6 +10,15 @@ try
 
     let searchBar = document.querySelector(" #search #bar ")
 
+    let programData = new Array();
+
+    /*
+    -   Fetch & Contact multiple program Data
+    -   programData = programData0 + programData1
+    */
+
+    programData = programData.concat(programData0, programData1, programData2, programData3, programData4, programData5, programData6, programData7)
+
     /*
         --------------------------------------------------------------------
         [ program data display ] function return layout
@@ -38,7 +47,35 @@ try
     {
         if (i == 0)
         {
+            content.insertAdjacentHTML("beforeend",`<h4> /*  assign program */ </h4>`)
+        }
+        if (i == 9)
+        {
             content.insertAdjacentHTML("beforeend",`<h4> /*  basic program */ </h4>`)
+        }
+        if (i == 148)
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /*  Singal dimension array */ </h4>`)
+        }
+        if (i == 171)
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /*  two dimension array */ </h4>`)
+        }
+        if (i == 184)
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /* applets */ </h4>`)
+        }
+        if (i == 184)
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /*   */ </h4>`)
+        }
+        if (i == 184)
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /*   */ </h4>`)
+        }
+        if (i == 184)
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /*   */ </h4>`)
         }
         content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay(i)} </div>`)
     }
