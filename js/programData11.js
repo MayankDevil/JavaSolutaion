@@ -12,52 +12,217 @@ try
     var programData11 = [
             {
                 problem : `1. Enter the character from the user using InputStreamReader`,
-                solution : ``,
+                solution : `
+import java.io.*;
+
+ class prog1 {
+    public static void main(String[] args) throws IOException {
+        InputStreamReader reader = new InputStreamReader(System.in);
+
+        System.out.print("Enter a character: ");
+        char inputChar = (char) reader.read();
+
+        System.out.println("You entered: " + inputChar);
+    }
+}
+                `,
                 comeout : ``
             },
             {
                 problem : `2. Enter the string from the user using BufferedReader`,
-                solution : ``,
+                solution : `
+import java.io.*;
+
+class Buffered
+{
+  public static void main ( String s[] ) throws IOException  //handle the i/o exceptions 
+  {
+    System.out.print ( "Enter the string: " );
+
+    BufferedReader input = new BufferedReader ( new InputStreamReader ( System.in ) ); // taking the input
+
+    String inputString = input.readLine();
+
+  
+
+    System.out.println ( "Entered string is: " + inputString );
+  }
+}
+                `,
                 comeout : ``
             },
             {
                 problem : `3. Enter the integer from the user using Scanner class`,
-                solution : ``,
+                solution : `
+//Enter the integer from the user using Scanner class
+import java.util.Scanner;
+class A{
+    public static void main(String arg[])
+    {
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter an integer :-");
+        int a = s.nextInt();
+        System.out.println(a);
+    }
+}
+                `,
                 comeout : ``
             },
             {
                 problem : `4. Enter the float from the user using Scanner class`,
-                solution : ``,
+                solution : `
+import java.util.Scanner;
+
+public class Input {
+
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.print("Enter a float number: ");
+    float number = scanner.nextFloat();
+
+    System.out.println("The number you entered is: " + number);
+  }
+}
+                `,
                 comeout : ``
             },
             {
                 problem : `5. Enter the double from the user using Scanner class`,
-                solution : ``,
+                solution : `               
+import java.util.Scanner;
+
+class Double5
+{
+    public static void main(String args[])
+    {
+        System.out.println("\nEnter the double from user using Scanner class.\n");
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter a Double Value : ");
+        Double d= sc.nextDouble();
+        System.out.println("your entered double value is : "+d);
+
+    }
+}
+                `,
                 comeout : ``
             },
             {
                 problem : `6. Enter the boolean from the user using Scanner class`,
-                solution : ``,
+                solution : `
+import java.util.Scanner;
+
+public class BooleanInputExample {
+    public static void main(String[] args) {
+        // Create a Scanner object to read input
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt the user to enter a boolean value
+        System.out.print("Enter a boolean (true or false): ");
+
+        // Read the boolean input
+        boolean userInput = scanner.nextBoolean();
+
+        // Close the scanner when you're done
+        scanner.close();
+
+        // Print the entered boolean value
+        System.out.println("You entered: " + userInput);
+    }
+}
+                `,
                 comeout : ``
             },
             {
                 problem : `7. Enter the short integer from the user using Scanner class`,
-                solution : ``,
+                solution : `
+import java.util.Scanner;  
+class a  
+{  
+public static void main(String[] x)   
+{  
+       //object of the Scanner class  
+       Scanner s=new Scanner(System.in);  
+       System.out.print("Enter a short integer value: ");  
+       //invoking nextShort() method that reads an integer input by keyboard  
+       //storing the input number in a variable num  
+       int num = s.nextShort();  
+       System.out.println("The Short integer entered by the user is: "+num);  
+}  
+}  
+                `,
                 comeout : ``
             },
             {
                 problem : `8. Enter the long integer from the user using Scanner class`,
-                solution : ``,
+                solution : ` 
+class Long8
+{
+
+    public static void main(String[] args) 
+    {
+        System.out.println("\nEnter the long integer from user using Scanner class.\n");
+        java.util.Scanner sc = new java.util.Scanner(System.in);
+        System.out.print("Enter a Long Interger value : ");
+        long num = sc.nextLong();
+        System.out.println("your entered long integer value is  : "+num);
+    }
+}
+                `,
                 comeout : ``
             },
             {
                 problem : `9. Get all characters from the file and display them on the screen`,
-                solution : ``,
+                solution : `
+import java.io.*;
+
+class filerd{
+public static void main(String[] args) throws Exception
+{File file = new File("read.txt");
+BufferedReader br= new BufferedReader(new FileReader(file));
+String st;
+while ((st = br.readLine()) != null)
+System.out.println(st);
+}
+}
+                `,
                 comeout : ``
             },
             {
                 problem : `10. Get all characters from the file, count the number of lines, words, and characters, and display them on the screen`,
-                solution : ``,
+                solution : `
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+class FileStats {
+    public static void main(String[] args) {
+        String fileName = "gurjeet.txt"; // Replace with the path to your file
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
+            int lines = 0;
+            int words = 0;
+            int characters = 0;
+
+            String line;
+            while ((line = reader.readLine()) != null) {
+                lines++;
+                characters += line.length();
+
+                String[] wordsArray = line.split("\\s+");
+                words += wordsArray.length;
+            }
+
+            System.out.println("Number of lines: " + lines);
+            System.out.println("Number of words: " + words);
+            System.out.println("Number of characters: " + characters);
+
+        } catch (IOException e) {
+            System.err.println("Error reading the file: " + e.getMessage());
+        }
+    }
+}
+                `,
                 comeout : ``
             }
         ]
