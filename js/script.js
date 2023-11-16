@@ -50,33 +50,73 @@ try
         {
             content.insertAdjacentHTML("beforeend",`<h4> /*  assign program */ </h4>`)
         }
-        if (i == 9)
+        if (i == programData0.length)
         {
             content.insertAdjacentHTML("beforeend",`<h4> /*  basic program */ </h4>`)
         }
-        if (i == 148)
+        if (i == (programData0.length + programData1.length))
         {
             content.insertAdjacentHTML("beforeend",`<h4> /*  Singal dimension array */ </h4>`)
         }
-        if (i == 171)
+        if (i == (programData0.length + programData1.length + programData2.length))
         {
             content.insertAdjacentHTML("beforeend",`<h4> /*  two dimension array */ </h4>`)
         }
-        if (i == 184)
+        if (i == (programData0.length + programData1.length + programData2.length + programData3.length))
         {
             content.insertAdjacentHTML("beforeend",`<h4> /* applets */ </h4>`)
         }
-        if (i == 184)
+        if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /*   */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> /* data conversion */ </h4>`)
         }
-        if (i == 184)
+        if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /*   */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> /* delegation event model */ </h4>`)
         }
-        if (i == 184)
+        if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /*   */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> /* exception handling */ </h4>`)
+        }
+        if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length))
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /*  functions */ </h4>`)
+        }
+        if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length))
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /* awt */ </h4>`)
+        }
+        if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length))
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /* inheritance */ </h4>`)
+        }
+        if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length + programData10.length))
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /* input output */ </h4>`)
+        }
+        if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length + programData10.length + programData11.length))
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /* interfaces */ </h4>`)
+        }
+        if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length + programData10.length + programData11.length + programData12.length))
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /* jdbc */ </h4>`)
+        }
+        if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length + programData10.length + programData11.length + programData12.length + programData13.length))
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /* multithreading */ </h4>`)
+        }
+        if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length + programData10.length + programData11.length + programData12.length + programData13.length + programData14.length))
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /* oops */ </h4>`)
+        }
+        if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length + programData10.length + programData11.length + programData12.length + programData13.length + programData14.length + programData15.length))
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /* packages */ </h4>`)
+        }
+        if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length + programData10.length + programData11.length + programData12.length + programData13.length + programData14.length + programData15.length + programData16.length))
+        {
+            content.insertAdjacentHTML("beforeend",`<h4> /* string */ </h4>`)
         }
         content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay(i)} </div>`)
     }
