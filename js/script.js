@@ -14,10 +14,11 @@ try
 
     /*
     -   Fetch & Contact multiple program Data
-    -   programData = programData0 + programData1
+    -   programData = programData0 + programData1 + programData2 + programData3 + programData4 + programData5 + programData6 + programData7 + programData8 + programData9 + programData10 + programData11 + programData12 + programData13 + programData14 + programData15 + programData16 + programData17
+    -   programData = (0 - 17)
     */
 
-    programData = programData.concat(programData0, programData1, programData2, programData3, programData4, programData5, programData6, programData7)
+    programData = programData.concat(programData0, programData1, programData2, programData3, programData4, programData5, programData6, programData7, programData8, programData9, programData10, programData11, programData12, programData13, programData14, programData15, programData16, programData17)
 
     /*
         --------------------------------------------------------------------
