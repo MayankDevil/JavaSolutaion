@@ -56,9 +56,32 @@ try
                 comeout : ``
             },
             {
-                problem : `10. Create a Java program to create a package with a public class and public members to be accessed in another class.`,
-                solution : ``,
-                comeout : ``
+                problem : `10. Create a Java program to create a package with public class and public members to be accessed in another class. `,
+                solution : `
+package mayankpackage;
+
+public class MyClass
+{
+    public int rollno = 7027;
+
+    public void publicMethod()
+    {
+        System.out.println("if you are like follow me https://github.com/MayankDevil/");
+    }
+}
+class Test
+{
+    public static void main(String[] args)
+    {
+        mayankpackage.MyClass my = new myPackage.MyClass();
+    
+        System.out.println("Mayank rollno is " + my.rollno);
+    
+        my.publicMethod();
+    }
+}
+            `,
+                comeout : `Mayank rollno is 7027\nif you are like follow me https://github.com/MayankDevil/`
             }
         ]
     // programData16 : packages

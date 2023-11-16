@@ -570,11 +570,6 @@ class Test
 }
             `,
             comeout : `The matrix is sparse.`
-        },
-        {
-            problem : ``,
-            solution : ``,
-            comeout : ``
         }
     ]
 }
