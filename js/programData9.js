@@ -711,6 +711,8 @@ class Test
             }
         ]
     // programData9 : awt
+
+    document.title = `MayankDevil`
 }
 catch (error)
 {

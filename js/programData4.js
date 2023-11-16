@@ -317,6 +317,8 @@ public class appro1 extends Applet
             }
         ]
     // programData4 : applets
+
+    document.title = `MayankDevil`
 }
 catch (error)
 {

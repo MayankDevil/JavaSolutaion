@@ -707,6 +707,8 @@ try
             }
         ]
     // programData1 : basic constructs
+    
+    document.title = `MayankDevil`
 }
 catch (error)
 {

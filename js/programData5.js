@@ -576,6 +576,8 @@ class DecimalToOctal
             }
         ]
     // programData5 : data conversion
+
+    document.title = `MayankDevil`
 }
 catch (error)
 {

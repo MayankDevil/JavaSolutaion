@@ -465,6 +465,8 @@ class Test
             }
         ]
     // programData7 : exception handling
+
+    document.title = `MayankDevil`
 }
 catch (error)
 {

@@ -357,6 +357,8 @@ class Test
             },
         ]
     // programData8 : functions
+
+    document.title = `MayankDevil`
 }
 catch (error)
 {

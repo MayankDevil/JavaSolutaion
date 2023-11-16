@@ -227,6 +227,8 @@ class FileStats {
             }
         ]
     // programData11 :  input output
+
+    document.title = `MayankDevil`
 }
 catch (error)
 {
