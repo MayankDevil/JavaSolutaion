@@ -83,71 +83,71 @@ try
         }
         if (i == programData0.length)
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /*  basic program */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> basic program [${programData1.length}]  </h4>`)
         }
         if (i == (programData0.length + programData1.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /*  Singal dimension array */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> singal dimension array [${programData2.length}] </h4>`)
         }
         if (i == (programData0.length + programData1.length + programData2.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /*  two dimension array */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> two dimension array [${programData3.length}] </h4>`)
         }
         if (i == (programData0.length + programData1.length + programData2.length + programData3.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /* applets */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> applets [${programData4.length}] </h4>`)
         }
         if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /* data conversion */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> data conversion [${programData5.length}] </h4>`)
         }
         if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /* delegation event model */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> delegation event model [${programData6.length}] </h4>`)
         }
         if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /* exception handling */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> exception handling [${programData7.length}] </h4>`)
         }
         if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /*  functions */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> functions [${programData8.length}] </h4>`)
         }
         if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /* awt */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> awt [${programData9.length}] </h4>`)
         }
         if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /* inheritance */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> inheritance [${programData10.length}] </h4>`)
         }
         if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length + programData10.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /* input output */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> input output [${programData11.length}] </h4>`)
         }
         if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length + programData10.length + programData11.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /* interfaces */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> interfaces [${programData12.length}] </h4>`)
         }
         if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length + programData10.length + programData11.length + programData12.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /* jdbc */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> jdbc [${programData13.length}] </h4>`)
         }
         if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length + programData10.length + programData11.length + programData12.length + programData13.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /* multithreading */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> multithreading [${programData14.length}] </h4>`)
         }
         if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length + programData10.length + programData11.length + programData12.length + programData13.length + programData14.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /* oops */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4>  oops [${programData15.length}] </h4>`)
         }
         if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length + programData10.length + programData11.length + programData12.length + programData13.length + programData14.length + programData15.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /* packages */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4> packages [${programData16.length}] </h4>`)
         }
         if (i == (programData0.length + programData1.length + programData2.length + programData3.length + programData4.length + programData5.length + programData6.length + programData7.length + programData8.length + programData9.length + programData10.length + programData11.length + programData12.length + programData13.length + programData14.length + programData15.length + programData16.length))
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /* string */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4>  string [${programData17.length}] </h4>`)
         }
         content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay(i)} </div>`)
     }

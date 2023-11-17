@@ -13,14 +13,12 @@ try
             {
                 problem : `1. Write a Java program to print 'Hello World!' on screen`,
                 solution : `class Test \n{ \n\tpublic static void main(String args[])\n\t{ \n\t\tSystem.out.println("hello world"); \n\t}\n}`,
-                comeout : ` hello world`
+                comeout : null
             },
             {
                 problem : `2. Write a Java program to print the sum of two numbers`,
-                solution :  `
-                
-                `,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `3. Write a Java program that takes two numbers and display the product of two numbers`,
@@ -55,7 +53,7 @@ class ProductNums
 	}
 }
                 `,
-                comeout : ``
+                comeout : `basic/7034bpc3.png`
             },
             {
                 problem : `4. Write a Java program to print the sum, multiply, subtract, divide and remainder of two numbers`,
@@ -93,7 +91,7 @@ class Operation
 	}
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `5. Write a Java program that takes five numbers as input to calculate and print the average of the numbers`,
@@ -115,7 +113,7 @@ public class 7075BasicConstructP25 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7003BPC_5.png`
             },
             {
                 problem : `6. Write a Java program to swap two variables`,
@@ -144,7 +142,7 @@ class b{
 }
 }
                 `,
-                comeout : ``
+                comeout : `7074bpc6`
             },
             {
                 problem : `7. Write a Java program to convert a decimal number to binary numbers`,
@@ -177,14 +175,12 @@ class decimaltobinary
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7020BPC_7.png`
             },
             {
                 problem : `8. Write a Java program to convert a binary number to decimal number`,
-                solution :  `
-                
-                `,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `9. Write a Java program to check whether Java is installed on your computer or not`,
@@ -203,14 +199,12 @@ class checkjava {
 
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `10. Write a Java program and compute the sum of the digits of an integer`,
-                solution :  `
-                
-                `,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `11. Write a Java program to compare two numbers`,
@@ -240,14 +234,12 @@ class Comparetwonumbers
 	}
 }
                 `,
-                comeout : ``
+                comeout : `basic/7020BPC_11.png`
             },
             {
                 problem : `12. Write a Java program to count the letters, spaces, numbers and other characters of an input string`,
-                solution :  `
-                
-                `,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `13. Write a Java program to print the ASCII value of a given character`,
@@ -265,7 +257,7 @@ System.out.println("ASCII value of " +chr+ " is: "+asciiValue);
 }  
 }  
                 `,
-                comeout : ``
+                comeout : `basic/7020BPC_13.png`
             },
             {
                 problem : `14. Write a Java program that accepts an integer (n) and computes the value of n+nn+nnn`,
@@ -285,7 +277,7 @@ public class first {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `15. Write a Java program to display the system time`,
@@ -302,39 +294,37 @@ class SystemTime {
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7059bpc15.png`
             },
             {
                 problem : `16. Write a Java program to print the odd numbers from 1 to 20`,
-                solution :  `
-                
-                `,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `17. Write a Java program to print the even numbers from 1 to 20`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `18. Write a Java program to convert a string to an integer`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `19. Write a Java program to convert seconds to hours, minutes, and seconds`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `20. Write a Java program to compute the sum of the first 100 prime numbers`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `21. Write a Java program to swap the first and last elements of an array and create a new array`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : `basic/7041bpc21.png`
             },
             {
                 problem : `22. Write a Java program to count the number of even and odd elements in a given array`,
@@ -366,14 +356,12 @@ System.out.println("No. of odd number in  array: "+ocount);
 }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7062bpc22.png`
             },
             {
                 problem : `23. Write a Java program to compute the square root of a given integer`,
-                solution :  `
-                  
-                `,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `24. Write a Java program to check if a positive number is a palindrome or not`,
@@ -413,7 +401,7 @@ else
 }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7062bpc24.png`
             },
             {
                 problem : `25. Write a Java program to add two numbers without using any arithmetic operators`,
@@ -437,7 +425,7 @@ public class 7075BasicConstructP25 {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `26. Write a Java program to add all the digits of a given positive integer`,
@@ -457,12 +445,12 @@ class sum
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7062bpc26.png`
             },
             {
                 problem : `27. Java program to find area of circle`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `28. Java Program to find area of rectangle`,
@@ -487,12 +475,12 @@ class a
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7039bpc28.png`
             },
             {
                 problem : `29. Java Program to find area of triangle`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `30. Java Program to find area of equilateral triangle`,
@@ -510,7 +498,7 @@ class area
     }
 }
                 `,
-                comeout : ``
+                comeout :  `basic/7062bpc30.png`
             },
             {
                 problem : `31. Java Program to find area of rhombus`,
@@ -559,12 +547,27 @@ class a
 	}
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `32. Java Program to find area of parallelogram`,
-                solution :  ``,
-                comeout : ``
+                solution :  `
+import java.util.*;
+import java.io.*;
+public class p2{
+
+    static public void main(String arg[]){
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter value of base : ");
+        int b = obj.nextInt();
+        System.out.println("Enter value of height : ");
+        int h = obj.nextInt();
+        int res = (b * h);
+        System.out.println("Area of Parallelogram : "+res);
+    }
+}
+                `,
+                comeout : `basic/7092bpc32.png`
             },
             {
                 problem : `33. Java Program to find area of Prism`,
@@ -591,7 +594,7 @@ class PrismArea {
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7059bpc33.png`
             },
             {
                 problem : `34. Java Program to find volume of sphere`,
@@ -808,7 +811,7 @@ class electricBill{
 	}
 }
                 `,
-                comeout : ``
+                comeout : `basic/7020BPC_45.png`
             },
             {
                 problem : `46. Java Program To Calculate CGPA Percentage`,
@@ -1979,8 +1982,36 @@ System.out.println(key);}
             },
             {
                 problem : `100. Write a Java Program to Sort the Array in an Ascending Order`,
-                solution :  ``,
-                comeout : ``
+                solution :  `
+import java.util.Arrays;
+public class program100_7024 {
+    public static void main(String[] args) {
+        int[] array = {7,4,21,3,0,3};
+
+        System.out.println("Original array: " + Arrays.toString(array));
+
+        sortArray(array);
+
+        System.out.println("Sorted array in ascending order: " + Arrays.toString(array));
+    }
+
+    public static void sortArray(int[] array) {
+        int n = array.length;
+
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (array[j] > array[j + 1]) {
+                    // Swap array[j] and array[j+1]
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
+            }
+        }
+    }
+}
+                `,
+                comeout : `basic7024bpc100.png`
             },
             {
                 problem : `101. Write a Java Program to Sort the Array in a Descending Order`,

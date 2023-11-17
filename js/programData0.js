@@ -165,7 +165,7 @@ class Calculator extends java.awt.Frame
 }
 // the end ---
             `,
-            comeout : `Calculator execute ...`
+            comeout : `awt/7027AWT18.png`
         },
         {
             problem : `13. Write a Java method that checks whether all the characters in a given string are vowels (a, e,i,o,u) or not. Return true if each character in the string is a vowel, otherwise return false. `,
@@ -191,7 +191,7 @@ class Test
     }
 }
             `,
-            comeout : `false\ntrue`
+            comeout : `Functions/7025function13.png`
         },
         {
             problem : `26. Write a Java program to create an abstract class GeometricShape with abstract methods area() and perimeter(). Create subclasses Triangle and Square that extend the GeometricShape class and implement the respective methods to calculate the area and perimeter of each shape.`,
@@ -260,7 +260,7 @@ class Test
     }
 }
             `,
-            comeout : `Triangle Area: 6.0\nTriangle Perimeter: 12.0\nSquare Area: 6.25\nSquare Perimeter: 10.0`
+            comeout : `Inheritance/Inheritance26_7027.png`
         },
         {
             problem : `11. Write a Java program to create an interface Sortable with a method sort (int[] array) that sorts an array of integers in descending order. Create two classes QuickSort and MergeSort that implement the Sortable interface and provide their own implementations of the sort() method.`,
@@ -393,7 +393,7 @@ class Test
     }
 }
             `,
-            comeout : ``
+            comeout : null
         },
         {
             problem : `32. Write a Java program to create a class called Student with private instance variables student_id, student_name, and grades. Provide public getter and setter methods to access and modify the student_id and student_name variables. However, provide a method called addGrade() that allows adding a grade to the grades variable while performing additional validation. `,
@@ -457,7 +457,7 @@ class Student
     }
 }
             `,
-            comeout : ``
+            comeout : `oops/7027oop32.png`
         },
         {
             problem : `10. Create a Java program to create a package with public class and public members to be accessed in another class. `,
@@ -485,7 +485,7 @@ class Test
     }
 }
             `,
-            comeout : `Mayank rollno is 7027\nif you are like follow me https://github.com/MayankDevil/`
+            comeout : null
         },
         {
             problem : `50. Create an object StringBuffer class to show functionality of insert, append, delete and replace functions.`,
@@ -523,7 +523,7 @@ class Test
     }
 }
             `,
-            comeout : `wrongion insert()\nIf you are like follow me at https://github.com/MayankDevil/`
+            comeout : `Strings/7027String50.png`
         },
         {
             problem : `13. Program to determine whether a given matrix is a sparse matrix `,
@@ -569,7 +569,7 @@ class Test
     }
 }
             `,
-            comeout : `The matrix is sparse.`
+            comeout : null
         }
     ]
     document.title = `MayankDevil`
