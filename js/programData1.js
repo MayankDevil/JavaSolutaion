@@ -598,13 +598,13 @@ class PrismArea {
             },
             {
                 problem : `34. Java Program to find volume of sphere`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `35. Java Program to find volume of cylinder`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `36. Java Program to find volume of cuboid`,
@@ -638,12 +638,12 @@ class volume
 	}
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `37. Java Program to find volume of cone`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `38. Java program to find surface area of cuboid`,
@@ -661,7 +661,7 @@ public static void main (String args[])
    
 }}  
                 `,
-                comeout : ``
+                comeout : `basic/7083bpc38.png`
             },
             {
                 problem : `39. Java program to find surface area of cylinder`,
@@ -678,7 +678,7 @@ class cylinder_Sarea
 }  
 }  
                 `,
-                comeout : ``
+                comeout : `basic/7083bpc39.png`
             },
             {
                 problem : `40. Java program to find surface area of cube`,
@@ -699,7 +699,7 @@ class a
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7039bpc40.png`
             },
             {
                 problem : `41. Java program to calculate average marks`,
@@ -729,7 +729,7 @@ class basic_programming_constructs_41
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7041bpc41.png`
             },
             {
                 problem : `42. Java program to check vowel or consonant`,
@@ -757,12 +757,12 @@ class basic_programming_constructs_42 {
     } 
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `43. Java program to sum of N numbers`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `44. Java program to find factorial of any number`,
@@ -787,7 +787,7 @@ class b{
 }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7074bpc44.png`
             },
             {
                 problem : `45. Java Program to calculate electricity bill`,
@@ -854,7 +854,7 @@ class basic_programming_constructs_46 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7041bpc46.png`
             },
             {
                 problem : `47. Java Program to calculate compound interest`,
@@ -872,7 +872,7 @@ class CI
     } 
 } 
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `48. Java Program To Calculate Batting Average`,
@@ -891,14 +891,12 @@ class batting_average
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `49. Java Pogram to Calculate Commission Percentage`,
-                solution :  `
-                
-                `,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `50. Java Pogram To Find Distance Between Two Points`,
@@ -923,17 +921,17 @@ class Points{
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `51. Java Program To Calculate Power Of Number`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `52. Write a Java program to take three numbers from the user and print the greatest number`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `53. Write a Java program to find the number of days in a month`,
@@ -957,7 +955,7 @@ class month_days
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `54. Write a Java program to test a number is positive or negative`,
@@ -981,13 +979,12 @@ class checknumber {
     }
 }               
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `55. Write a Java Program to accept number of week�s day (1-7) and print name of the day`,
-                solution :  `
-                `,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `56. Write a Java program that takes a year from user and print whether that year is a leap year or not`,
@@ -1013,12 +1010,12 @@ class b{
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `57. Write a Java program to input 5 numbers from keyboard and find their sum and average`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `58. Write a program in Java to display the first 5 natural numbers`,
@@ -1034,12 +1031,12 @@ System.out.println(a);
 } 
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `59. Write a java program to check vowel or consonant`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `60. Write a Java program to display the cube of the number up to a given integer`,
@@ -1062,17 +1059,17 @@ class GetCube
 	}
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `61. Write a Java program to display the n terms of odd natural numbers and their sum`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `62. Write a Java program to display the multiplication table of a given integer`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `63. Write a Java program that reads an integer and checks whether it is negative, zero, or positive`,
@@ -1101,12 +1098,12 @@ class basic_programming_constructs_63 {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `64. Write a Java program that reads a positive integer and counts the number of digits`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `65. Write a Java program that accepts three numbers and checks if all numbers are equal or not`,
@@ -1130,7 +1127,7 @@ class compare{
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `66. Write a java program that accepts three numbers from the user and checks if numbers are in "increasing" or "decreasing" order`,
@@ -1161,7 +1158,7 @@ class IncDec {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `67. Write a Java program that determines a student�s grade`,
@@ -1193,7 +1190,7 @@ class studentgrade {
     }
 }               
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `68. Write a Java program to create a simple calculator`,
@@ -1241,24 +1238,22 @@ class SimpleCalculator {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `69. Write a Java program to concatenate two strings`,
-                solution :  `
-                
-                `,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `70. Write a Java program to convert all characters in a string to lowercase`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `71. Write a Java program to convert all characters in a string to uppercase`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `72. Write a Java program to trim a string (remove whitespaces)`,
@@ -1271,7 +1266,7 @@ class L {
     }    
 }    
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `73. Write a Java program to get a substring of a given string between two specified positions`,
@@ -1312,7 +1307,7 @@ class SubstringExample {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `74. Write a Java program to replace all the 'd' characters with 'f' characters`,
@@ -1333,12 +1328,12 @@ System.out.println(" ");
 }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `75. Write a Java program to get the length of a given string`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `76. Write a Java program to print the current date and time in the specified format`,
@@ -1351,27 +1346,27 @@ class date{
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `77. Write a Java program to get the character at the given index within the String`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `78. Write a Java program to remove a particular character from a string`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `79. Write a Java program to reverse a String`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `80. Write a Java program to remove HTML tags from a string`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `81. Write a Java program to count the total number of lines in a string`,
@@ -1403,14 +1398,12 @@ class linescount {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `82. Write a Java program to sum values of an array`,
-                solution :  `
-                
-                `,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `83. Write a Java program to find the index of an array element`,
@@ -1454,12 +1447,12 @@ class a {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `84. Write a Java program to calculate the average value of array elements`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `85. Write a Java program to test if an array contains a specific value`,
@@ -1495,7 +1488,7 @@ class a {
  
  }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `86. Write a Java program to find the maximum and minimum value of an array`,
@@ -1534,7 +1527,7 @@ class b{
     }       
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `87. Write a Java program to insert an element (at a specific position) into an array`,
@@ -1603,7 +1596,7 @@ class GFG {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `88. Write a Java program to reverse an array of integer values`,
@@ -1642,7 +1635,7 @@ class b{
 }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `89. Write a Java program to find the common elements between two arrays`,
@@ -1671,17 +1664,17 @@ public static void main(String[] args)
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `90. Write a Java program to find the duplicate values of an array of integer values`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `91. Write a Java program to convert an array to an ArrayList`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `92. Write a Java program to add two matrices of the same size`,
@@ -1744,7 +1737,7 @@ class Matrix_add
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `93. Write a Java program to find the second largest number from an array`,
@@ -1777,7 +1770,7 @@ class SecondLargestNumber
    }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7072bpc93.png`
             },
             {
                 problem : `94. Write a Java program to find the second lowest number from an array`,
@@ -1822,7 +1815,7 @@ class lowest
 	}
 }
                 `,
-                comeout : ``
+                comeout : `basic/7004bpc94.png`
             },
             {
                 problem : `95. Write a Java program to find the number of even and odd integers in a given array of integers`,
@@ -1847,7 +1840,7 @@ public class evenodd {
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7031bpc95.png`
             },
             {
                 problem : `96. Write a Java program to get the difference between the largest and smallest values in an array of integers`,
@@ -1877,7 +1870,7 @@ public class Main {
   }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `97. Write a Java program to segregate all 0s on the left side and all 1s on the right side of a given array of 0s and 1s`,
@@ -1908,7 +1901,7 @@ class ninty_seven{
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7001bpc97.png`
             },
             {
                 problem : `98. Write a Java program to cyclically rotate a given array clockwise by one`,
@@ -1948,7 +1941,7 @@ class ninty_seven{
       }
   }
                 `,
-                comeout : ``
+                comeout : `basic/7101bpc98.png`
             },
             {
                 problem : `99. Write a Java program to print all unique elements in an array`,
@@ -1978,7 +1971,7 @@ if(count==0){
 System.out.println(key);}
 }}}
                 `,
-                comeout : ``
+                comeout : `basic/7035bpc99.png`
             },
             {
                 problem : `100. Write a Java Program to Sort the Array in an Ascending Order`,
@@ -2015,23 +2008,63 @@ public class program100_7024 {
             },
             {
                 problem : `101. Write a Java Program to Sort the Array in a Descending Order`,
-                solution :  ``,
-                comeout : ``
+                solution :  `
+import java.util.Arrays;
+
+public class program101_7024 {
+    public static void main(String[] args) {
+        int[] array = {20,6,4,1,43,5};
+
+        System.out.println("Original array: " + Arrays.toString(array));
+
+        sortArray(array);
+
+        System.out.println("Sorted array in descending order: " + Arrays.toString(array));
+    }
+
+    public static void sortArray(int[] array) {
+        int n = array.length;
+
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (array[j] < array[j + 1]) {
+                    // Swap array[j] and array[j+1]
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
+            }
+        }
+    }
+}
+                `,
+                comeout : `basic/7024bpc101.png`
             },
             {
                 problem : `102. Write a Java Program to Sort Names in Alphabetical Order`,
-                solution :  ``,
-                comeout : ``
+                solution :  `
+class Program102{
+    public static void main(String args[])throws ClassNotFoundException{
+        String names[] = {"Sourabh", "Jatin", "Jaspreet", "Rishav", "Yaman"};
+        java.util.Arrays.sort(names); 
+        System.out.println("Names in alphabetical order : ");
+        for (int i = 0; i < names.length; i++) {
+            System.out.println(names[i]);            
+        }
+    }
+}
+                `,
+                comeout : `basic/7038bpc102.png`
             },
             {
                 problem : `103. Write a Java Program to Display Transpose Matrix`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `104. Write a Java Program to Search Key Elements in an Array`,
-                solution :  ``,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `105. Write a Java Program to Accept the Marks of a Student and find Total Marks and Percentage`,
@@ -2066,7 +2099,7 @@ class percentages
     }   
 }               
                 `,
-                comeout : ``
+                comeout : `basic/7031bpc105.png`
             },
             {
                 problem : `106. Write a Java program to print numbers from 1 to 10 using a loop`,
@@ -2080,7 +2113,7 @@ class M {
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7105BPC106.png`
             },
             {
                 problem : `107. Write a Java program to calculate the sum of the first 10 natural numbers using a loop`,
@@ -2098,7 +2131,7 @@ System.out.println("Sum of First 10 Natural Numbers is = " + sum);
 }  
 }  
                 `,
-                comeout : ``
+                comeout : `basic/7105bpc107.png`
             },
             {
                 problem : `108. Write a Java program to print the multiplication table of a given number`,
@@ -2119,7 +2152,7 @@ public class basicprogram7048_108 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7048bpc108.png`
             },
             {
                 problem : `109. Write a Java program to find the factorial value of any number entered through the keyboard`,
@@ -2163,7 +2196,7 @@ class FactorialCal{
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7107bpc109.png`
             },
             {
                 problem : `110. Write a Java program that prompts the user to input an integer and then outputs the number with the digits reversed order`,
@@ -2207,7 +2240,7 @@ class ReverseDigits{
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7107bpc110.png`
             },
             {
                 problem : `111. Write a Java program that reads a set of integers, and then prints the sum of the even and odd integers using a loop`,
@@ -2241,7 +2274,7 @@ class Sum {
   }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `112. Write a Java program to check whether a number is a prime number or not`,
@@ -2266,7 +2299,7 @@ class P{
     }    
     }   
                 `,
-                comeout : ``
+                comeout : `basic/7105bpc112.png`
             },
             {
                 problem : `113. Write a Java program to calculate HCF of two given numbers using a loop`,
@@ -2314,7 +2347,7 @@ class PrimeNumberChecker{
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7107bpc113.png`
             },
             {
                 problem : `114. Write a Java program to enter numbers until the user wants and then display the count of positive, negative, and zeros`,
@@ -2356,7 +2389,7 @@ class number
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7034bpc114.png`
             },
             {
                 problem : `115. Write a Java program to enter numbers until the user wants and then display the largest and smallest numbers entered`,
@@ -2413,7 +2446,7 @@ class number
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7034bpc115.png`
             },
             {
                 problem : `116. Write a Java program to print out all Armstrong numbers between 1 to 600 using a loop`,
@@ -2460,14 +2493,12 @@ class a1
 		
 }
                 `,
-                comeout : ``
+                comeout : `basic/7004bpc116.png`
             },
             {
                 problem : `117. Write a Java program to count the total number of notes in the entered amount using a loop`,
-                solution :  `
-                
-                `,
-                comeout : ``
+                solution :  null,
+                comeout : null
             },
             {
                 problem : `118. Write a Java program to print the Fibonacci series of n terms where n is input by the user using a loop`,
@@ -2497,7 +2528,7 @@ class oneHundredEighteen {
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7001bpc118.png`
             },
             {
                 problem : `119. Write a Java program to calculate the sum of a given series where n is input by the user`,
@@ -2539,7 +2570,7 @@ class FibonacciSeries {
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7107bpc119.png`
             },
             {
                 problem : `120. Write a Java method to compute the average of three numbers`,
@@ -2555,7 +2586,7 @@ public class basicprogram7048_120 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7048bpc120.png`
             },
             {
                 problem : `121. Write a Java method to find the smallest number among three numbers`,
@@ -2573,7 +2604,7 @@ public class basicprogram7048_121 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7048bpc121.png`
             },
             {
                 problem : `122. Write a Java method to count all words in a string`,
@@ -2605,19 +2636,67 @@ public class basicprogram7048_122 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7048bpc122.png`
             },
             {
                 problem : `123. Write a Java method to count all vowels in a string`,
                 solution :  `
-                
+class String123 {
+        public static void main(String[] args) {
+        String inputString = "Hello, this is java programming.";
+        System.out.println("Input String: " + inputString);
+        
+        int vowelCount = countAllVowels(inputString);
+        System.out.println("Number of vowels in the string: " + vowelCount);
+    }
+
+    public static int countAllVowels(String str) {
+        int count = 0;
+        // Convert the input string to lowercase to make the comparison case-insensitive
+        str = str.toLowerCase();
+
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            // Check if the character is a vowel ('a', 'e', 'i', 'o', 'u' - both lowercase and uppercase)
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                count++;
+            }
+        }
+        return count;
+    }
+}
                 `,
-                comeout : ``
+                comeout : `basic/7056bpc123.png`
             },
             {
                 problem : `124. Write a Java method to compute the sum of the digits in an integer`,
-                solution :  ``,
-                comeout : ``
+                solution :  `
+class Method124 {
+    public static void main(String[] args) {
+        int number = 98824;
+        System.out.println("Number: " + number);
+        int sum = sumOfDigits(number);
+        System.out.println("Sum of digits: " + sum);
+    }
+
+    public static int sumOfDigits(int num) {
+        int sum = 0;
+
+        // Iterate through each digit of the number until it becomes zero
+        while (num != 0) {
+            // Extract the last digit using modulo operator
+            int digit = num % 10;
+            // Add the extracted digit to the sum
+            sum += digit;
+            // Remove the last digit from the number
+            num /= 10;
+        }
+
+        return sum;
+    }
+}
+                `,
+                comeout : `basic/7056bpc124.png`
             },
             {
                 problem : `125. Write a Java method to check whether a year entered by the user is a leap year or not`,
@@ -2645,7 +2724,7 @@ class Q {
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7105bpc125.png`
             },
             {
                 problem : `126. Write a Java method to calculate the area of a triangle`,
@@ -2679,17 +2758,49 @@ public class basicProblems_126_7032 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7032bpc126.png`
             },
             {
                 problem : `127. Write a Java method to find the area of a pentagon`,
-                solution :  ``,
-                comeout : ``
+                solution :  `
+class Method127 {
+        public static void main(String[] args) {
+        double sideLength = 7.5; // Length of a side of the pentagon
+        double area = calculatePentagonArea(sideLength);
+        System.out.println("Area of the pentagon: " + area);
+    }
+
+    public static double calculatePentagonArea(double sideLength) {
+        int sides = 5; // Number of sides in a pentagon
+        double numerator = 0.25 * sides * Math.pow(sideLength, 2);
+        double denominator = Math.tan(Math.PI / sides);
+        return numerator / denominator;
+    }
+}                
+                `,
+                comeout : `basic/7056bpc127.png`
             },
             {
                 problem : `128. Write a Java method to check if a number is even or not`,
-                solution :  ``,
-                comeout : ``
+                solution :  `
+import java.util.Scanner;
+class kamal7019java128 {
+
+    public static void main(String[] args) {
+
+        Scanner reader = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = reader.nextInt();
+
+        if(num % 2 == 0)
+            System.out.println(num + " is even");
+        else
+            System.out.println(num + " is odd");
+    }
+}
+                `,
+                comeout : `basic/7019bpc128.png`
             },
             {
                 problem : `129. Write a Java method to check if a number is a palindrome number or not`,
@@ -2725,7 +2836,7 @@ class a1
 		
 }
                 `,
-                comeout : ``
+                comeout : `basic/7004bpc129.png`
             },
             {
                 problem : `130. Write a Java method to display prime numbers between 1 to 20`,
@@ -2762,7 +2873,7 @@ class b{
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7074bpc130.png`
             },
             {
                 problem : `131. Write a Java method to find GCD and LCM of two numbers`,
@@ -2811,7 +2922,7 @@ class a
 	}
 }
                 `,
-                comeout : ``
+                comeout : `basic/7004bpc131.png`
             },
             {
                 problem : `132. Write a Java method to find factorial using recursion in Java`,
@@ -2841,7 +2952,7 @@ class oneHundredThirtyTwo {
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7001bpc132.png`
             },
             {
                 problem : `133. Write a Java program to reverse an integer number`,
@@ -2863,7 +2974,7 @@ class revint {
   }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7058bpc133.png`
             },
             {
                 problem : `134. Write a Java program to round a float number to specified decimals`,
@@ -2895,7 +3006,7 @@ class a
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7004bpc134.png`
             },
             {
                 problem : `135. Write a Java program to test if a double number is an integer`,
@@ -2917,7 +3028,7 @@ class number
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7034bpc135.png`
             },
             {
                 problem : `136. Write a Java program to round up the result of integer division`,
@@ -2938,7 +3049,7 @@ class number
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7034bpc136.png`
             },
             {
                 problem : `137. Write a Java program to convert a Roman number to an integer number`,
@@ -2980,7 +3091,7 @@ public class RomanToInteger
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `138. Write a Java program to convert a float value to its absolute value`,
@@ -3000,12 +3111,12 @@ class Absolute
     }
 }
                 `,
-                comeout : ``
+                comeout : `basic/7004bpc138.png`
             },
             {
                 problem : `139. Write a Java program to accept a float value of a number and return a rounded float value`,
-                solution :  ``,
-                comeout : ``
+                solution : null,
+                comeout : `basic/7048bpc139.png`
             }
         ]
     // programData1 : basic constructs
