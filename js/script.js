@@ -38,7 +38,7 @@ try
                         <summary> ${programData[index].problem} </summary>
                         <div>
                             <pre class="console"> ${programData[index].solution} </pre>
-                            <img src='data/java/${programData[index].comeout}' class='output'/>
+                            <img src='data/output/${programData[index].comeout}' class='output'/>
                         </div>
                     </details>
                 `)
