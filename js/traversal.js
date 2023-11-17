@@ -45,23 +45,23 @@ try
     */
 
     content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Program",programData0, "pro")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData1, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData2, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData3, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData4, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData5, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData6, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData7, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData8, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData9, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData10, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData11, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData12, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData13, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData14, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData15, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData16, "function")}</div>`);
-    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functions",programData17, "function")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Basic Program",programData1, "basic")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Singal Dimension Array",programData2, "onearray")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Two Dimension Array",programData3, "twoarray")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Applets",programData4, "applet")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Data Conversion",programData5, "datacon")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Delegation Event Models",programData6, "event")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Exception Handlings",programData7, "exception")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Functionss",programData8, "function")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Graphic with AWT",programData9, "awt")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Inheritacne",programData10, "inheritance")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Input or Ouput",programData11, "io")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Interface",programData12, "interface")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Java DataBase Connectivity",programData13, "jdbc")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Multi-Threading",programData14, "thread")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Object Oriented Programming",programData15, "oop")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Packages",programData16, "package")}</div>`);
+    content.insertAdjacentHTML("beforeend",`<div class="container"> ${programDataDisplay("Strings",programData17, "strings")}</div>`);
 
 
     function dataTraversal(element,data)
@@ -73,44 +73,63 @@ try
             innerData = element.children
 
             for (let i = 0; i < innerData.length; i++)
-            {
-                if (data[i].solution != null)
-                {
-                    innerData[i].onclick = () => {
+            {                
+                innerData[i].onclick = () => {
 
-                        content.innerHTML = (`
-
-                            <h4> ${data[i].problem} </h4>
-                            
-                            <pre class='console'> ${data[i].solution} </pre>
-
-                            <img src='data/java/${data[i].comeout}' class='output'/>
-                            
-                        `)
+                    if (data[i].solution != null)
+                    {
+                        if (data[i].comeout != null)
+                        {
+                            content.innerHTML = (`
+    
+                                <h4> ${data[i].problem} </h4>
+                                
+                                <pre class='console'> ${data[i].solution} </pre>
+    
+                                <img src='data/output/${data[i].comeout}' class='output'/>
+                                
+                            `)
+                        }
+                        else
+                        {
+                            content.innerHTML = (`
+    
+                                <h4> ${data[i].problem} </h4>
+                                
+                                <pre class='console'> ${data[i].solution} </pre>
+    
+                                <a href='https://mayankdevil.github.io/myData/error.html' class='btn' style='width:100%;border-radius:0'> click to check out </a>                                
+                            `)
+                        }
                     }
-                }    
+                    else
+                    {
+                        window.open("https://mayankdevil.github.io/myData/bug.html","_parent")
+                    }
+                }
+               
             }
         }
     }
 
-    dataTraversal(document.getElementById('function'),programData0)
-    dataTraversal(document.getElementById('function'),programData1)
-    dataTraversal(document.getElementById('function'),programData2)
-    dataTraversal(document.getElementById('function'),programData3)
-    dataTraversal(document.getElementById('function'),programData4)
-    dataTraversal(document.getElementById('function'),programData5)
-    dataTraversal(document.getElementById('function'),programData6)
-    dataTraversal(document.getElementById('function'),programData7)
+    dataTraversal(document.getElementById('pro'),programData0)
+    dataTraversal(document.getElementById('basic'),programData1)
+    dataTraversal(document.getElementById('onearray'),programData2)
+    dataTraversal(document.getElementById('twoarray'),programData3)
+    dataTraversal(document.getElementById('applet'),programData4)
+    dataTraversal(document.getElementById('datacon'),programData5)
+    dataTraversal(document.getElementById('event'),programData6)
+    dataTraversal(document.getElementById('exception'),programData7)
     dataTraversal(document.getElementById('function'),programData8)
-    dataTraversal(document.getElementById('function'),programData9)
-    dataTraversal(document.getElementById('function'),programData10)
-    dataTraversal(document.getElementById('function'),programData11)
-    dataTraversal(document.getElementById('function'),programData12)
-    dataTraversal(document.getElementById('function'),programData13)
-    dataTraversal(document.getElementById('function'),programData14)
-    dataTraversal(document.getElementById('function'),programData15)
-    dataTraversal(document.getElementById('function'),programData16)
-    dataTraversal(document.getElementById('function'),programData17)
+    dataTraversal(document.getElementById('awt'),programData9)
+    dataTraversal(document.getElementById('inheritance'),programData10)
+    dataTraversal(document.getElementById('io'),programData11)
+    dataTraversal(document.getElementById('interface'),programData12)
+    dataTraversal(document.getElementById('jdbc'),programData13)
+    dataTraversal(document.getElementById('thread'),programData14)
+    dataTraversal(document.getElementById('oop'),programData15)
+    dataTraversal(document.getElementById('package'),programData16)
+    dataTraversal(document.getElementById('strings'),programData17)
 
     
     document.title = "MayankDevil"

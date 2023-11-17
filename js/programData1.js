@@ -142,7 +142,7 @@ class b{
 }
 }
                 `,
-                comeout : `7074bpc6`
+                comeout : `basic/7074bpc6.png`
             },
             {
                 problem : `7. Write a Java program to convert a decimal number to binary numbers`,

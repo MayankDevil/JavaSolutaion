@@ -111,7 +111,6 @@ img
 #search
 {
     padding: 1rem;
-    background:var(--black);
 }
 #search > .container
 {
@@ -121,14 +120,6 @@ img
 #search #bar
 {
     width: 100%;
-    padding:1rem 10px;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: bold;
-    color: var(--blue);
-    background:var(--white);
-    border: 1px groove var(--red);
-    border-radius: 2rem;
 }
 #search #pointer
 {
@@ -144,6 +135,7 @@ img
 #content
 {
     margin: 3rem auto;
+    margin-top: 20vh;
 }
 #content .container
 {
@@ -159,9 +151,6 @@ img
     line-height: 1.5rem;
     background:var(--gold);
 }
-/* #content .container summary:hover
-{
-} */
 #content .container details summary article
 {
     padding: 1rem 0;
@@ -172,6 +161,7 @@ details article div
     color: var(--dark);
     background: var(--light);
     padding: 1rem;
+    margin: 1rem;
 }
 
 #content .console
