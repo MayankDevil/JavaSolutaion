@@ -48,6 +48,10 @@
 /*
     comman css -----------------
 */
+body
+{
+    background: var(--white);
+}
 .container
 {
     max-width: 1200px;
@@ -73,9 +77,9 @@ h3
 }
 h4
 {
-    padding: 2rem 0;
-    font-size: 1.5rem;
-    color:var(--dark);
+    padding: 2rem 1rem;
+    font-size: 1.2rem;
+    color:var(--gray);
 }
 p
 {
@@ -243,8 +247,13 @@ img
 */
 #search
 {
-    padding: 1rem;
-    background:var(--black);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem 0;
+    background:rgba(23, 162, 184, 0.7) url(../data/bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode: overlay;
 }
 #search > .container
 {
@@ -259,8 +268,8 @@ img
     font-size: 1rem;
     font-weight: bold;
     color: var(--blue);
-    background:var(--white);
-    border: 1px groove var(--red);
+    background:rgba(0, 0, 0,0.7);
+    border: 3px dotted var(--red);
     border-radius: 2rem;
 }
 #search #pointer
@@ -277,6 +286,7 @@ img
 #content
 {
     margin: 3rem auto;
+    margin-top: 15vh;
 }
 #content .container details
 {
