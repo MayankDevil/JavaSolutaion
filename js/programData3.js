@@ -49,7 +49,7 @@ class Array1 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `2darray/2darray_1_7014.png`
             },
             {
                 problem : `2. Program to Add Two Matrices`,
@@ -83,7 +83,7 @@ class AddMatrices {
     }
 }
                 `,
-                comeout : ``
+                comeout : `2darray/2Darray_2_7020.png`
             },
             {
                 problem : `3. Program to Multiply Two Matrices`,
@@ -116,7 +116,7 @@ System.out.println();//new line
 }}  
 1
                 `,
-                comeout : ``
+                comeout : `2darray/2darray_3_7007.png`
             },
             {
                 problem : `4. Program to subtract the two matrices`,
@@ -150,7 +150,7 @@ class sub{
     }
 }
                 `,
-                comeout : ``
+                comeout : `2darray/2Darray_4_7006.png`
             },
             {
                 problem : `5. Program to determine whether two matrices are equal`,
@@ -181,7 +181,7 @@ class MatrixEqualOrNot {
     }
 }
                 `,
-                comeout : ``
+                comeout : `2darray/2Darray_5_7014.png`
             },
             {
                 problem : `6. Program to display the lower triangular matrix`,
@@ -224,7 +224,7 @@ class  compareMatrix{
     }
 }
                 `,
-                comeout : ``
+                comeout : `2darray/2Darray_6_7014.png`
             },
             {
                 problem : `7. Program to display the upper triangular matrix`,
@@ -264,7 +264,7 @@ class uppertriangularmatrix
     }
 }
                 `,
-                comeout : ``
+                comeout : `2darray/2Darray_7_7003.png`
             },
             {
                 problem : `8. Program to find the frequency of odd & even numbers in the given matrix`,
@@ -318,7 +318,7 @@ import java.util.Scanner;
     }
 }                
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `9. Program to find the sum of each row and each column of a matrix`,
@@ -377,7 +377,7 @@ class sumrowcolumn {
     }
 }
                 `,
-                comeout : ``
+                comeout : `2darray/2DArray_9_7012.java.png`
             },
             {
                 problem : `10. Program to find the transpose of a given matrix`,
@@ -419,7 +419,7 @@ class Transpose {
     }
 }
                 `,
-                comeout : ``
+                comeout : `2darray/2Darray_10_7044.png`
             },
             {
                 problem : `11. Program to determine whether a given matrix is an identity matrix`,
@@ -463,7 +463,7 @@ public class Identity
     }    
 }    
                 `,
-                comeout : ``
+                comeout : `2darray/2Darray_11_7057.png`
             },
             {
                 problem : `12. Program to Transpose matrix`,
@@ -536,7 +536,7 @@ public class Array12 {
     }
 }                
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `13. Program to determine whether a given matrix is a sparse matrix `,
@@ -582,7 +582,7 @@ class Test
     }
 }
             `,
-                comeout : `The matrix is sparse.`
+                comeout : null
             },
         ]
     // programData3 : 2d array

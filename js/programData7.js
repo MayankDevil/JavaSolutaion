@@ -26,7 +26,7 @@ try
                     }
                   }
                 `,
-                comeout : ``
+                comeout : `exception/7077ExceptionHandling1.png`
             },
             {
                 problem : `2. Write a Java program to create a method that takes an integer as a parameter and throws an exception if the number is odd`,
@@ -54,7 +54,7 @@ class test{
     }
     }}
                 `,
-                comeout : ``
+                comeout : `exception/7083Exceptionhandling2.png`
             },
             {
                 problem : `3. Write a Java program to create a method that reads a file and throws an exception if the file is not found`,
@@ -86,7 +86,7 @@ class Read_File {
   }
 }
                 `,
-                comeout : ``
+                comeout : `exception/7083Exceptionhandling3.png`
             },
             {
                 problem : `4. Write a Java program that reads a list of numbers from a file and throws an exception if any of the numbers are positive`,
@@ -129,7 +129,7 @@ class PositiveNumberException extends Exception {
     }
 }
                 `,
-                comeout : ``
+                comeout : `exception/7001Exception4.png`
             },
             {
                 problem : `5. Write a Java program that reads a file and throws an exception if the file is empty`,
@@ -169,7 +169,7 @@ class EmptyFileException extends Exception {
   }
 }
                 `,
-                comeout : ``
+                comeout : `exception/7055exceptionHandling5.png`
             },
             {
                 problem : `6. Write a Java program that reads a list of integers from the user and throws an exception if any numbers are duplicates`,
@@ -206,7 +206,7 @@ class exception6{
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `7. Write a Java program to create a method that takes a string as input and throws an exception if the string does not contain vowels`,
@@ -246,7 +246,7 @@ class Exception_handling_7 {
     }
     }
                 `,
-                comeout : ``
+                comeout : `exception/7072ExceptionHandling7.png`
             },
             {
                 problem : `8. Write a Java program to connect the Java API to a Database, if the connection is not successful, then throw an exception`,
@@ -268,7 +268,7 @@ try
 }
 }
                 `,
-                comeout : ``
+                comeout : `exception/7101ExceptionHandling8.png`
             },
             {
                 problem : `9. Write a Java program to manage the driver with a path, username, and password, if not successful, then throw an exception`,
@@ -310,7 +310,7 @@ class DatabaseConnectionException extends Exception {
     }
 }
                 `,
-                comeout : ``
+                comeout : `exception/7001Exception9.png`
             },
             {
                 problem : `10. Write a Java program to throw the SQL Query, insert, delete, update, if not successful, then throw an exception`,
@@ -388,7 +388,7 @@ class SQLExceptionCustom extends SQLException {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `11. Write a Java program to show an example of the throws Keyword`,
@@ -404,7 +404,7 @@ Thread.sleep(1000);
 }
 }}
                 `,
-                comeout : ``
+                comeout : `exception/7050exceptionhandling11.png`
             },
             {
                 problem : `12. Write a Java program to show an example of multiple catch`,
@@ -432,7 +432,7 @@ class test{
     }
     }}
                 `,
-                comeout : ``
+                comeout : `exception/7050exceptionhandling12.png`
             },
             {
                 problem : `13. Write a Java program to show an example of a nested try block`,
@@ -461,7 +461,7 @@ class Test
 	} 
 } 
                 `,
-                comeout : ``
+                comeout : null
             }
         ]
     // programData7 : exception handling

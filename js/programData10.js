@@ -37,7 +37,7 @@ class Inheritance1 {
     }
 }                
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance1_7056.png`
             },
             {
                 problem : `2. Write a Java program to create a class called Vehicle with a method called drive(). Create a subclass called Car that overrides the drive() method to print "Repairing a car".`,
@@ -61,7 +61,7 @@ obj1.drive();
  }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance2_7056.png`
             },
             {
                 problem : `3. Write a Java program to create a class called Shape with a method called getArea(). Create a subclass called Rectangle that overrides the getArea() method to calculate the area of a rectangle.`,
@@ -97,7 +97,7 @@ class Inheritance3 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance3_7056.png`
             },
             {
                 problem : `4. Write a Java program to create a class called Employee with methods called work() and getSalary(). Create a subclass called HRManager that overrides the work() method and adds a new method called addEmployee().`,
@@ -152,7 +152,7 @@ class Inheritance4 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance4_7056.png`
             },
             {
                 problem : `5. Write a Java program to create a class known as "BankAccount" with methods called deposit() and withdraw(). Create a subclass called SavingsAccount that overrides the withdraw() method to prevent withdrawals if the account balance falls below one hundred.`,
@@ -222,7 +222,7 @@ obj2.withdraw(100);
 }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance5_7007.png`
             },
             {
                 problem : `6. Write a Java program to create a class called Animal with a method named move(). Create a subclass called Cheetah that overrides the move() method to run.`,
@@ -249,7 +249,7 @@ class  Main_c{
     }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance6_7083.png`
             },
             {
                 problem : `7. Write a Java program to create a class known as Person with methods called getFirstName() and getLastName(). Create a subclass called Employee that adds a new method named getEmployeeId() and overrides the getLastName() method to include the employee's job title.`,
@@ -302,7 +302,7 @@ class  Main_c{
      }
  }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance7_7101.png`
             },
             {
                 problem : `8. Write a Java program to create a class called Shape with methods called getPerimeter() and getArea(). Create a subclass called Circle that overrides the getPerimeter() and getArea() methods to calculate the area and perimeter of a circle.`,
@@ -347,7 +347,7 @@ class Shapetest {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance8_7091.png`
             },
             {
                 problem : `9. Write a Java program to create a vehicle class hierarchy. The base class should be Vehicle, with subclasses Truck, Car, and Motorcycle. Each subclass should have properties such as make, model, year, and fuel type. Implement methods for calculating fuel efficiency, distance traveled, and maximum speed.`,
@@ -395,7 +395,7 @@ public abstract class Vehicle {
     public abstract double getMaxSpeed();
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance9_7012.png`
             },
             {
                 problem : `10. Write a Java program that creates a class hierarchy for employees of a company. The base class should be Employee, with subclasses Manager, Developer, and Programmer. Each subclass should have properties such as name, address, salary, and job title. Implement methods for calculating bonuses, generating performance reports, and managing projects.`,
@@ -524,7 +524,7 @@ class inheritance10 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance10_7017.png`
             },
             {
                 problem : `11. Create a program, showing an example of super keyword.`,
@@ -572,7 +572,7 @@ class Dog extends Animal {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance11_7100.png`
             },
             {
                 problem : `12. Create a program, showing an example of super function.`,
@@ -594,7 +594,7 @@ d.printColor();
 }}  
 
                 `,
-                comeout : ``
+                comeout : `Inheritance/inheritance12_7024.png`
             },
             {
                 problem : `13. Create a program, showing an example of method overriding.`,
@@ -632,7 +632,7 @@ public class inheritance13_7024 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/inheritance13_7024.png`
             },
             {
                 problem : `14. Create a program, showing an example of dynamic method dispatch.`,
@@ -655,7 +655,7 @@ class ClgStd extends Std {
 }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance14_7083.png`
             },
             {
                 problem : `15. Write a Java program to create an abstract class Animal with an abstract method called sound(). Create subclasses Lion and Tiger that extend the Animal class and implement the sound() method to make a specific sound for each animal.`,
@@ -692,19 +692,17 @@ class Tiger extends Animal {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance15_7017.png`
             },
             {
                 problem : `16. Write a Java program to create an abstract class Shape with abstract methods calculateArea() and calculatePerimeter(). Create subclasses Circle and Triangle that extend the Shape class and implement the respective methods to calculate the area and perimeter of each shape.`,
-                solution : `
-                
-                `,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `17. Write a Java program to create an abstract class BankAccount with abstract methods deposit() and withdraw(). Create subclasses: SavingsAccount and CurrentAccount that extend the BankAccount class and implement the respective methods to handle deposits and withdrawals for each account type.`,
-                solution : ``,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `18. Write a Java program to create an abstract class Animal with abstract methods eat() and sleep(). Create subclasses Lion, Tiger, and Deer that extend the Animal class and implement the eat() and sleep() methods differently based on their specific behavior.`,
@@ -753,7 +751,7 @@ class Animals{
     }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance18_7084.png`
             },
             {
                 problem : `19. Write a Java program to create an abstract class Employee with abstract methods calculateSalary() and displayInfo(). Create subclasses Manager and Programmer that extend the Employee class and implement the respective methods to calculate salary and display information for each role.`,
@@ -832,7 +830,7 @@ class Inheritance_19 {
   }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritacne/Inheritance19_7041.png`
             },
             {
                 problem : `20. Write a Java program to create an abstract class Shape3D with abstract methods calculateVolume() and calculateSurfaceArea(). Create subclasses Sphere and Cube that extend the Shape3D class and implement the respective methods to calculate the volume and surface area of each shape.`,
@@ -908,13 +906,12 @@ public class Inheritance20 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance20_7070.png`
             },
             {
                 problem : `21. Write a Java program to create an abstract class Vehicle with abstract methods startEngine() and stopEngine(). Create subclasses Car and Motorcycle that extend the Vehicle class and implement the respective methods to start and stop the engines for each vehicle type.`,
-                solution : `
-                `,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `22. Write a Java program to create an abstract class Person with abstract methods eat() and exercise(). Create subclasses Athlete and LazyPerson that extend the Person class and implement the respective methods to describe how each person eats and exercises.`,
@@ -983,7 +980,7 @@ public class inheritance7048_22 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance22_7003.png`
             },
             {
                 problem : `23. Write a Java program to create an abstract class Instrument with abstract methods play() and tune(). Create subclasses for Glockenspiel and Violin that extend the Instrument class and implement the respective methods to play and tune each instrument.`,
@@ -1032,7 +1029,7 @@ class Inheritance_23 {
   }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance23_7041.png`
             },
             {
                 problem : `24. Write a Java program to create an abstract class Shape2D with abstract methods draw() and resize(). Create subclasses Rectangle and Circle that extend the Shape2D class and implement the respective methods to draw and resize each shape.`,
@@ -1081,7 +1078,7 @@ class Inheritance_24 {
   }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance24_7095.png`
             },
             {
                 problem : `25. Write a Java program to create an abstract class Bird with abstract methods fly() and makeSound(). Create subclasses Eagle and Hawk that extend the Bird class and implement the respective methods to describe how each bird flies and makes a sound.`,
@@ -1136,7 +1133,7 @@ public class inheritance7048_25 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Inheritance/Inheritance25_7041.png`
             },
             {
                 problem : `26. Write a Java program to create an abstract class GeometricShape with abstract methods area() and perimeter(). Create subclasses Triangle and Square that extend the GeometricShape class and implement the respective methods to calculate the area and perimeter of each shape.`,
@@ -1205,7 +1202,7 @@ class Test
     }
 }
             `,
-            comeout : `Triangle Area: 6.0\nTriangle Perimeter: 12.0\nSquare Area: 6.25\nSquare Perimeter: 10.0`
+            comeout : `Inheritance/Inheritance26_7027.png`
             }
         ]
     // programData10 : inheritance

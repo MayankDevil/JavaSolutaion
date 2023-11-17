@@ -39,7 +39,7 @@ public class awt1_7024 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `awt/7039AWT1.png`
             },
             {
                 problem : `2. Create a simple AWT application that displays a button with Custom Layout.`,
@@ -118,7 +118,7 @@ public class awt2_7024 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `awt/7039AWT2.png`
             },
             {
                 problem : `3. Create a simple AWT application that displays multiple buttons with BorderLayout manager (North, East, West, South, Center).`,
@@ -152,7 +152,7 @@ public static void main(String[] args) {
 }    
 }    
                 `,
-                comeout : ``
+                comeout : `awt/7029awt3.png`
             },
             {
                 problem : `4. Create a simple AWT application that displays a TextField with FlowLayout manager.`,
@@ -171,7 +171,7 @@ class awt4{
     }
 }
                 `,
-                comeout : ``
+                comeout : `awt/7077Awt4.png`
             },
             {
                 problem : `5. Create a simple AWT application that displays a TextField with Custom Layout.`,
@@ -206,7 +206,7 @@ class awt5 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `awt/7077Awt5.png`
             },
             {
                 problem : `6. Create a simple AWT application that displays a Checkbox with FlowLayout manager.`,
@@ -231,7 +231,7 @@ class CheckboxExample extends Frame {
     }
 }
                 `,
-                comeout : ``
+                comeout : `awt/7077Awt6.png`
             },
             {
                 problem : `7. Create a simple AWT application that displays a Checkbox with Custom Layout.`,
@@ -263,7 +263,7 @@ class myframe extends Frame{
     }
 }
                 `,
-                comeout : ``
+                comeout : `awt/7077Awt7.png`
             },
             {
                 problem : `8. Create a simple AWT application that displays a Label with FlowLayout manager.`,
@@ -287,7 +287,7 @@ class LabelExample extends Frame {
     }
 }
                 `,
-                comeout : ``
+                comeout : `awt/7077Awt8.png`
             },
             {
                 problem : `9. Create a simple AWT application that displays a Label with Custom Layout.`,
@@ -304,19 +304,17 @@ class awt{
 	}
 }
                 `,
-                comeout : ``
+                comeout : `awt/7077Awt9.png`
             },
             {
                 problem : `10. Create a simple AWT application that displays a Choice with FlowLayout manager.`,
-                solution : `
-                
-                `,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `11. Create a simple AWT application that displays a Choice with Custom Layout.`,
-                solution : ``,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `12. Create a simple AWT application that displays a CheckboxGroup with FlowLayout manager.`,
@@ -355,7 +353,7 @@ class awtpro1
     
 }
                 `,
-                comeout : ``
+                comeout : `awt/7062AWT12.png`
             },
             {
                 problem : `13. Create a simple AWT application that displays a CheckboxGroup with Custom Layout.`,
@@ -411,7 +409,7 @@ class CheckboxPanel extends Panel {
     }
 }
                 `,
-                comeout : ``
+                comeout : `awt/7085AWT13.png`
             },
             {
                 problem : `14. Create a simple AWT application that displays a List with FlowLayout manager.`,
@@ -442,7 +440,7 @@ public static void main(String s[]){
 new lists();
 }}
                 `,
-                comeout : ``
+                comeout : `awt/7070Awt14.png`
             },
             {
                 problem : `15. Create a simple AWT application that displays a List with Custom Layout.`,
@@ -464,7 +462,7 @@ class awt2 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `awt/AWT7104prog15.png`
             },
             {
                 problem : `16. Create a simple AWT application that displays a TextArea with FlowLayout manager.`,
@@ -482,7 +480,7 @@ class awt3 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `awt/7003awt16.png`
             },
             {
                 problem : `17. Create a simple AWT application that displays a TextArea with Custom Layout.`,
@@ -524,7 +522,7 @@ class CustomLayoutExample {
     }
 }
                 `,
-                comeout : ``
+                comeout : `awt/7085AWT17.png`
             },
             {
                 problem : `18. Create a simple AWT application design a calculator that displays buttons, TextField with GridLayout manager.`,
@@ -681,33 +679,7 @@ class Calculator extends java.awt.Frame
 }
 // the end ---
             `,
-            comeout : `Calculator execute ...`
-        },
-        {
-            problem : `13. Write a Java method that checks whether all the characters in a given string are vowels (a, e,i,o,u) or not. Return true if each character in the string is a vowel, otherwise return false. `,
-            solution : `
-class Test
-{
-    static boolean isVowel(char character)
-    {
-        return (character == 'a')? true : (character == 'e')? true : (character == 'i')? true : (character == 'o')? true : (character == 'u')? true : false; 
-    }
-    static boolean isStringInsideVowel(String line)
-    {
-        for (int i = 0; i < line.length(); i++)
-            if (isVowel(line.charAt(i)))
-                return true; 
-        return false;
-    }s
-    public static void main(String args[])
-    {
-        System.out.println(Test.isStringInsideVowel("kndq"));
-
-        System.out.println(Test.isStringInsideVowel("hello"));
-    }
-}
-            `,
-            comeout : `false\ntrue`
+                comeout : `awt/7027AWT18.png`
             }
         ]
     // programData9 : awt

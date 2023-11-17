@@ -12,20 +12,18 @@ try
     var programData15 = [
             {
                 problem : `1. Write a Java program to create a class called "Person" with a name and age attribute. Create two instances of the "Person" class, set their attributes using the constructor, and print their name and age.`,
-                solution : ``,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `2. Write a Java program to create a class called "Dog" with a name and breed attribute. Create two instances of the "Dog" class, set their attributes using the constructor and modify the attributes using the setter methods and print the updated values.`,
-                solution : ``,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `3. Write a Java program to create a class called "Rectangle" with width and height attributes. Calculate the area and perimeter of the rectangle.`,
-                solution : `
-                
-                `,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `4. Write a Java program to create a class called "Circle" with a radius attribute. You can access and modify this attribute. Calculate the area and circumference of the circle.`,
@@ -67,7 +65,7 @@ class Circle {
 
 }
                 `,
-                comeout : ``
+                comeout : `oops/7104oop4.png`
             },
             {
                 problem : `5. Write a Java program to create a class called "Book" with attributes for title, author, and ISBN, and methods to add and remove books from a collection.`,
@@ -118,14 +116,12 @@ obj2.remove("1-86092-024-5");
 }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `6. Write a Java program to create a class called "Employee" with a name, job title, and salary attributes, and methods to calculate and update salary.`,
-                solution : `
-                
-                `,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `7. Write a Java program to create a class called "Bank" with a collection of accounts and methods to add and remove accounts, and to deposit and withdraw money. Also define a class called "Account" to maintain account details of a particular customer.`,
@@ -231,7 +227,7 @@ obj1.details("123456789");
 
 } 
                 `,
-                comeout : ``
+                comeout : `oops/7059oop7.png`
             },
             {
                 problem : `8. Write a Java program to create class called "TrafficLight" with attributes for color and duration, and methods to change the color and check for red or green.`,
@@ -292,7 +288,7 @@ class M3 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `oops/7015oop8.png`
             },
             {
                 problem : `9. Write a Java program to create a class called "Employee" with a name, salary, and hire date attributes, and a method to calculate years of service.`,
@@ -360,7 +356,7 @@ class Employee {
 }
                 
                 `,
-                comeout : ``
+                comeout : `oops/7019oop9.png`
             },
             {
                 problem : `10. Write a Java program to create a class called "Student" with a name, grade, and courses attributes, and methods to add and remove courses.`,
@@ -428,7 +424,7 @@ public class Student {
     }
 }
                 `,
-                comeout : ``
+                comeout : `oops/7101oop10.png`
             },
             {
                 problem : `11. Write a Java program to create a class called "Library" with a collection of books and methods to add and remove books.`,
@@ -509,14 +505,12 @@ public class Main {
   }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `12. Write a Java program to create a class called "Airplane" with a flight number, destination, and departure time attributes, and methods to check flight status and delay.`,
-                solution : `
-                
-                `,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `13. Write a Java program to create a class called "Inventory" with a collection of products and methods to add and remove products, and to check for low inventory.`,
@@ -592,12 +586,68 @@ Inventory inventory = new Inventory();
 }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `14. Write a Java program to create a class called "School" with attributes for students, teachers, and classes, and methods to add and remove students and teachers, and to create classes.`,
-                solution : ``,
-                comeout : ``
+                solution : `
+class Library 
+{
+    String[] book = new String[5];
+
+    int size = 5;
+
+    int index;
+    
+    void add(String bookname)
+    {
+        if (index == 5)
+        {
+            book[index] = bookname;
+            index++;
+        }
+        else
+        {
+            System.out.println("index out of bond");
+        }
+    }
+    void remove()
+    {
+        if (index == 0)
+        {
+            index--;
+        }
+        else
+        {
+            System.out.println("not element to remove");
+        }
+    }
+
+    void displaybook()
+    {
+        for (int i = 0; i < index; i++) {
+            System.out.println(book[i]);
+        }
+    }
+}
+class Test
+{
+    public static void main(String[] args) {
+        
+        Library l = new Library();
+
+        l.add("time of error");
+        l.add("hello bro");
+        l.add("hero time");
+
+        l.remove();
+
+        l.displaybook();
+
+    }
+}
+                `,
+                comeout : `oops/7025oop14.png`
             },
             {
                 problem : `15. Write a Java program to create a class called "MusicLibrary" with a collection of songs and methods to add and remove songs, and to play a random song.`,
@@ -675,7 +725,7 @@ class musiclibrary {
     }
 }
                 `,
-                comeout : ``
+                comeout : `oops/7003oop15.png`
             },
             {
                 problem : `16. Write a Java program to create a class called "Shape" with abstract methods for calculating area and perimeter, and subclasses for "Rectangle", "Circle", and "Triangle".`,
@@ -763,7 +813,7 @@ class Triangle extends Shape {
     }
 }
                 `,
-                comeout : ``
+                comeout : `oops/7015oop16.png`
             },
             {
                 problem : `17. Write a Java program to create a class called "Movie" with attributes for title, director, actors, and reviews, and methods for adding and retrieving reviews.`,
@@ -804,7 +854,7 @@ public class Movie {
   }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `18. Write a Java program to create a class called "Restaurant" with attributes for menu items, prices, and ratings, and methods to add and remove items, and to calculate average rating.`,
@@ -908,7 +958,7 @@ public class Restaurant {
     }
 }
                 `,
-                comeout : ``
+                comeout : `oops/7086oop18.png`
             },
             {
                 problem : `19. Write a Java program to create a class with methods to search for flights and hotels, and to book and cancel reservations.`,
@@ -1030,7 +1080,7 @@ class book {
 
     }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `20. Create a class showing an example of default constructor.`,
@@ -1046,7 +1096,7 @@ class Construct1 {
 
 }
                 `,
-                comeout : ``
+                comeout : `oops/7024oop20.png`
             },
             {
                 problem : `21. Create a class showing an example of parameterized constructor.`,
@@ -1070,7 +1120,7 @@ class Main {
   }
 }
                 `,
-                comeout : ``
+                comeout : `oops/7024oop21.png`
             },
             {
                 problem : `22. Create a class showing an example of copy constructor.`,
@@ -1114,7 +1164,7 @@ class Fruit  {
     }  
     }  
                 `,
-                comeout : ``
+                comeout : `oops/7086oop22.png`
             },
             {
                 problem : `23. Create a class entering the rollno, name, and class of the student from the user, but the rollno should be automatically generated as we enter the information of 10 students.`,
@@ -1166,7 +1216,7 @@ class StudentManagement {
     }
 }
                 `,
-                comeout : ``
+                comeout : `oops/7085oop23.png`
             },
             {
                 problem : `24. Create a class showing the area of a circle and rectangle by method overloading.`,
@@ -1199,7 +1249,7 @@ public class OOP24 {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `25. Create a class, entering the command-line arguments from the user and show all the arguments as output.`,
@@ -1218,12 +1268,12 @@ class CommandLineArgumentsExample {
     }
 }
                 `,
-                comeout : ``
+                comeout : `oops/7101oop25.png`
             },
             {
                 problem : `26. Write a Java program to create a class called Person with private instance variables name, age, and country. Provide public getter and setter methods to access and modify these variables.`,
-                solution : ``,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `27. Write a Java program to create a class called BankAccount with private instance variables accountNumber and balance. Provide public getter and setter methods to access and modify these variables.`,
@@ -1271,12 +1321,12 @@ class bankaccount {
 
 
                 `,
-                comeout : ``
+                comeout : `oops/7003oop27.png`
             },
             {
                 problem : `28. Write a Java program to create a class called Rectangle with private instance variables length and width. Provide public getter and setter methods to access and modify these variables.`,
-                solution : ``,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `29. Write a Java program to create a class called Employee with private instance variables employee_id, employee_name, and employee_salary. Provide public getter and setter methods to access and modify the id and name variables, but provide a getter method for the salary variable that returns a formatted string.`,
@@ -1325,7 +1375,7 @@ class Employee {
     }
 }
                 `,
-                comeout : ``
+                comeout : `oops/7104oop29.png`
             },
             {
                 problem : `30. Write a Java program to create a class called Circle with a private instance variable radius. Provide public getter and setter methods to access and modify the radius variable. However, provide two methods called calculateArea() and calculatePerimeter() that return the calculated area and perimeter based on the current radius value.`,
@@ -1353,7 +1403,7 @@ class circle{
     System.out.println("Perimeter of circle is: "+ obj.calculateperimeter());
     }}
                 `,
-                comeout : ``
+                comeout : `oops/7035oop30.png`
             },
             {
                 problem : `31. Write a Java program to create a class called Car with private instance variables company_name, model_name, year, and mileage. Provide public getter and setter methods to access and modify the company_name, model_name, and year variables. However, only provide a getter method for the mileage variable.`,
@@ -1428,7 +1478,7 @@ class Car {
     }
 }
                 `,
-                comeout : ``
+                comeout : `oops/7101opp31.png`
             },
             {
                 problem : `32. Write a Java program to create a class called Student with private instance variables student_id, student_name, and grades. Provide public getter and setter methods to access and modify the student_id and student_name variables. However, provide a method called addGrade() that allows adding a grade to the grades variable while performing additional validation. `,
@@ -1492,7 +1542,7 @@ class Student
     }
 }
             `,
-            comeout : ``
+            comeout : `oops/7027oop32.png`
             }
         ]
     // programData15 : oops

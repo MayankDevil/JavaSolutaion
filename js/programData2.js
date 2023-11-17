@@ -39,7 +39,7 @@ public class OnearrTOAnotherArray
 
 }
                 `,
-                comeout : ``
+                comeout : `1darray/7011onedarray1.png`
             },
             {
                 problem : `2. Program to find the frequency of each element in the array`,
@@ -73,7 +73,7 @@ public class FrequencyCounter {
     }
 }
                 `,
-                comeout : ``
+                comeout : `1darray/70711Darray2.png`
             },
             {
                 problem : `3. Program to left rotate the elements of an array`,
@@ -112,7 +112,7 @@ class RotateLeft {
     }  
 }  
                 `,
-                comeout : ``
+                comeout : `1darray/7007_1dArray3.png`
             },
             {
                 problem : `4. Program to print the duplicate elements of an array`,
@@ -135,7 +135,7 @@ public class ary {
     }
 }
                 `,
-                comeout : ``
+                comeout : `1darray/7055oneDimensionArrays4.png`
             },
             {
                 problem : `5. Program to print the elements of an array`,
@@ -153,7 +153,7 @@ public class PrintArrayElements {
     }
 }
                 `,
-                comeout : ``
+                comeout : `1darray/7073_1Darray5.png`
             },
             {
                 problem : `6. Program to print the elements of an array in reverse order`,
@@ -183,7 +183,7 @@ System.out.println(i);
 
 }}}
                 `,
-                comeout : ``
+                comeout : `1darray/7059onedarray6.png`
             },
             {
                 problem : `7. Program to print the elements of an array present on even position`,
@@ -217,7 +217,7 @@ class a {
     }
 }
                 `,
-                comeout : ``
+                comeout : `1darray/7011onedarray7.png`
             },
             {
                 problem : `8. Program to print the elements of an array present on odd position`,
@@ -234,7 +234,7 @@ class OddPosition {
     }  
 }                 
                 `,
-                comeout : ``
+                comeout : `1darray/7017Singlearry8.png`
             },
             {
                 problem : `9. Program to print the largest element in an array`,
@@ -252,7 +252,7 @@ class LargestElement {
     }  
 }  
                 `,
-                comeout : ``
+                comeout : `1darray/7003singledimensionarrays9.png`
             },
             {
                 problem : `10. Program to print the smallest element in an array`,
@@ -276,7 +276,7 @@ class smallestelement{
     }
 }
                 `,
-                comeout : ``
+                comeout : `1darray/7003singledimensionarrays10.png`
             },
             {
                 problem : `11. Program to print the number of elements present in an array`,
@@ -292,7 +292,7 @@ public class ArrayLength{
     }
 }
                 `,
-                comeout : ``
+                comeout : `1darray/70661DArray11.png`
             },
             {
                 problem : `12. Program to print the sum of all the items of the array`,
@@ -324,7 +324,7 @@ public class array_12_7032{
     }
 }
                 `,
-                comeout : ``
+                comeout : `1darray/7057_1DArray12.png`
             },
             {
                 problem : `13. Program to right rotate the elements of an array`,
@@ -362,7 +362,7 @@ class RightRotateArray {
     }
 }
                 `,
-                comeout : ``
+                comeout : `1darray/7111SingleDimensionArrays13.png`
             },
             {
                 problem : `14. Program to sort the elements of an array in ascending order`,
@@ -401,7 +401,7 @@ class SortAsc {
     }    
 }    
                 `,
-                comeout : ``
+                comeout : `1darray/7102singlearray14.png`
             },
             {
                 problem : `15. Program to sort the elements of an array in descending order`,
@@ -426,7 +426,7 @@ class K{
     }    
 }    
                 `,
-                comeout : ``
+                comeout : `1darray/7105_1DArray_15.png`
             },
             {
                 problem : `16. Program to Find 3rd Largest Number in an array`,
@@ -446,7 +446,7 @@ class kamal7019java1d16 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `1darray/kamal7019java1d16.png`
             },
             {
                 problem : `17. Program to Find 2nd Largest Number in an array`,
@@ -465,7 +465,7 @@ class SecondLargest{
     }
 }
                 `,
-                comeout : ``
+                comeout : `1darray/7003singledimensionarrays17.png`
             },
             {
                 problem : `18. Program to Find Largest Number in an array`,
@@ -496,7 +496,7 @@ public class LargestInArrayExample{
         }
         }
                 `,
-                comeout : ``
+                comeout : `1darray/7017Singlearray18.png`
             },
             {
                 problem : `19. Program to Find 2nd Smallest Number in an array`,
@@ -520,7 +520,7 @@ public class SmallestNumberInAnArray {
     }
     }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `20. Program to Find Smallest Number in an array`,
@@ -550,7 +550,7 @@ System.out.println("Smallest: "+getSmallest(a,6));
 System.out.println("Smallest: "+getSmallest(b,7));  
 }}  
                 `,
-                comeout : ``
+                comeout : `1darray/7003singledimensionarrays20.png`
             },
             {
                 problem : `21. Program to Remove Duplicate Element in an array`,
@@ -596,7 +596,7 @@ public class Main {
     }
 }
                 `,
-                comeout : ``
+                comeout : `1darray/7011onedarray21.png`
             },
             {
                 problem : `22. Program to Print Odd and Even Numbers from an array`,
@@ -628,7 +628,7 @@ class C
 }
 }
                 `,
-                comeout : ``
+                comeout : `1darray/7101SingleDimensionArray22.png`
             },
             {
                 problem : `23. How to Sort an Array in Jav`,
@@ -651,7 +651,7 @@ System.out.println(array[i]);
 }  
 }  
                 `,
-                comeout : ``
+                comeout : `1darray/7070SingleDimensionArray23.png`
             }
         ]
     // programData2 : 1d array

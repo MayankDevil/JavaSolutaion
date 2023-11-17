@@ -24,7 +24,7 @@ public class packages1_7024 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Packages/7023_Packages_1.png`
             },
             {
                 problem : `2. Create a Java program to access the java.util.Date class through qualified way and print the current date of the system.`,
@@ -36,7 +36,7 @@ public class package2_7093{
     }
 }
                 `,
-                comeout : ``
+                comeout : `Packages/packages2_7024.png`
             },
             {
                 problem : `3. Create a Java program to access the java.util.Date class through import keyword and print the current date of the system but inherit the Date class.`,
@@ -50,7 +50,7 @@ class A extends Date {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `4. Create a Java program to access the java.util.Date class through the qualified way and print the current date of the system but inherit the Date class.`,
@@ -62,7 +62,7 @@ class Date {
     }
 }            
                 `,
-                comeout : ``
+                comeout : `Packages/7086Packages4.png`
             },
             {
                 problem : `5. Create a Java program to create a package with multiple default classes.`,
@@ -94,7 +94,7 @@ class Class1 {
 }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `6. Create a Java program to create a package with 4 public classes, create the object in another file and call the function created in those classes.`,
@@ -154,7 +154,7 @@ class Packages_6 {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `7. Write a Java program to perform employee payroll processing using packages. In the java file, Emp.java creates a package employee and creates a class Emp. Declare the variables name, empid, category, bpay, hra, da, npay, pf, grosspay, incometax, and allowance. Calculate the values in methods. Create another java file Emppay.java. Create an object e to call the methods to perform and print values.`,
@@ -242,7 +242,7 @@ import employee.Emp;
    } 
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `8. Create a Java program to create a package with public class and protected members to be accessed in another class.`,
@@ -277,7 +277,7 @@ class Packages_8 {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `9. Create a Java program to create a nested package i.e. c4.sample with a public class and protected members to be accessed in another class.`,
@@ -294,7 +294,7 @@ class Test
     }   
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `10. Create a Java program to create a package with public class and public members to be accessed in another class. `,
@@ -322,7 +322,7 @@ class Test
     }
 }
             `,
-                comeout : `Mayank rollno is 7027\nif you are like follow me https://github.com/MayankDevil/`
+                comeout : null
             }
         ]
     // programData16 : packages

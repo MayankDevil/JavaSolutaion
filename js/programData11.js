@@ -26,7 +26,7 @@ import java.io.*;
     }
 }
                 `,
-                comeout : ``
+                comeout : `io/7011inputoutput1.png`
             },
             {
                 problem : `2. Enter the string from the user using BufferedReader`,
@@ -49,7 +49,7 @@ class Buffered
   }
 }
                 `,
-                comeout : ``
+                comeout : `io/7083Inputoutput2.png`
             },
             {
                 problem : `3. Enter the integer from the user using Scanner class`,
@@ -66,7 +66,7 @@ class A{
     }
 }
                 `,
-                comeout : ``
+                comeout : `io/7077InputOutput3.png`
             },
             {
                 problem : `4. Enter the float from the user using Scanner class`,
@@ -85,7 +85,7 @@ public class Input {
   }
 }
                 `,
-                comeout : ``
+                comeout : `io/7006inputoutput4.png`
             },
             {
                 problem : `5. Enter the double from the user using Scanner class`,
@@ -105,7 +105,7 @@ class Double5
     }
 }
                 `,
-                comeout : ``
+                comeout : `io/7021inputoutput5.png`
             },
             {
                 problem : `6. Enter the boolean from the user using Scanner class`,
@@ -131,7 +131,7 @@ public class BooleanInputExample {
     }
 }
                 `,
-                comeout : ``
+                comeout : `io/7050Inputoutput6.png`
             },
             {
                 problem : `7. Enter the short integer from the user using Scanner class`,
@@ -151,7 +151,7 @@ public static void main(String[] x)
 }  
 }  
                 `,
-                comeout : ``
+                comeout : `io/7039input_output7.png`
             },
             {
                 problem : `8. Enter the long integer from the user using Scanner class`,
@@ -169,7 +169,7 @@ class Long8
     }
 }
                 `,
-                comeout : ``
+                comeout : `io/7011inputoutput8.png`
             },
             {
                 problem : `9. Get all characters from the file and display them on the screen`,
@@ -186,7 +186,7 @@ System.out.println(st);
 }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `10. Get all characters from the file, count the number of lines, words, and characters, and display them on the screen`,
@@ -223,7 +223,7 @@ class FileStats {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             }
         ]
     // programData11 :  input output

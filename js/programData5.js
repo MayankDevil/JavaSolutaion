@@ -31,19 +31,19 @@ public class StringToInt
 
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `2. How to convert int to String`,
                 solution : `
                 
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `3. How to convert String to long`,
-                solution : ``,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `4. How to convert long to String`,
@@ -58,7 +58,7 @@ class LongToStringConversion {
 	} 
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `5. How to convert String to float`,
@@ -79,7 +79,7 @@ class StringToFloatExample {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `6. How to convert float to String`,
@@ -105,12 +105,12 @@ class FTS {
 	}
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `7. How to convert String to double`,
-                solution : ``,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `8. How to convert double to String`,
@@ -126,7 +126,7 @@ System.out.println("Converted String: " + str);
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `9. How to convert String to Date`,
@@ -152,7 +152,7 @@ class STD {
 	}
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `10. How to convert Date to String`,
@@ -170,7 +170,7 @@ System.out.println(str);
 }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `11. How to convert String to char`,
@@ -197,7 +197,7 @@ for (char c : chr){
 }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `12. How to convert char to String`,
@@ -217,7 +217,7 @@ System.out.println("Char is converted to string:- "+str);
 }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `13. How to convert String to Object`,
@@ -259,7 +259,7 @@ class prog13{
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `14. How to convert Object to String`,
@@ -283,19 +283,17 @@ System.out.println("converted to string :-"+str1);
 }
 }                
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `15. How to convert int to long`,
-                solution : `
-                
-                `,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `16. How to convert long to int`,
-                solution : ``,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `17. How to convert int to double`,
@@ -313,7 +311,7 @@ class prog17 {
     }
 }                
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `18. How to convert double to int`,
@@ -329,7 +327,7 @@ class a
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `19. How to convert char to int`,
@@ -347,7 +345,7 @@ class chartoint
         }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `20. How to convert int to char`,
@@ -369,7 +367,7 @@ class A {
 	} 
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `21. How to convert String to boolean`,
@@ -403,7 +401,7 @@ class convertStringToBoolean
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `22. How to convert boolean to String`,
@@ -429,7 +427,7 @@ class booleantostring {
 }
 
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `23. How to convert Date to Timestamp`,
@@ -450,14 +448,14 @@ class DateToTimestampExample {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `24. How to convert Timestamp to Date`,
                 solution : `
                 
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `25. How to convert Binary to Decimal`,
@@ -469,7 +467,7 @@ class BinarytoDecimal{
     System.out.println(decimal);  
     }}
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `26. How to convert Decimal to Binary`,
@@ -496,7 +494,7 @@ class DecimalToBinary {
    }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `27. How to convert Hex to Decimal`,
@@ -524,14 +522,14 @@ class HexToDecimal
    }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `28. How to convert Decimal to Hex`,
                 solution : `
                 
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `29. How to convert Octal to Decimal`,
@@ -552,7 +550,7 @@ class GFG {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `30. How to convert Decimal to Octa`,
@@ -572,7 +570,7 @@ class DecimalToOctal
   }
 }
                 `,
-                comeout : ``
+                comeout : null
             }
         ]
     // programData5 : data conversion

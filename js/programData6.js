@@ -42,7 +42,7 @@ class Add extends Frame implements ActionListener
 
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `2. Java Program to Create Text Area and Password Field`,
@@ -93,7 +93,7 @@ class Login implements ActionListener
 	}
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `3. Java Program to Create a Button and Display Image in the Frame when Clicked`,
@@ -129,7 +129,7 @@ public class event {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `4. Java Program to Create 2 Radio Buttons and Display Selected Button Label`,
@@ -188,7 +188,7 @@ class Radio_Button implements ActionListener
 	}
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `5. Java Program to Handle KeyBoardEvent`,
@@ -248,7 +248,7 @@ class Main implements KeyListener {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `6. Java Program to Handle MouseEvent`,
@@ -283,7 +283,7 @@ public  void mouseEntered(java.awt.event.MouseEvent me){System.out.println("butt
 public  void mouseExited(java.awt.event.MouseEvent me){System.out.println("button exited");}
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `7. Java Program to Get and Set State and Get Label of a Check Box`,
@@ -376,7 +376,7 @@ class Check_Box implements ActionListener
 	}
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `8. Java Program to Create Check Boxes and Radio Buttons`,
@@ -453,14 +453,12 @@ class Button_Checkbox implements ActionListener,ItemListener
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `9. Java Program to Create and Switch between Frames using Buttons`,
-                solution : `
-                
-                `,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `10. Java Program to Create and Set Border to Push Buttons`,
@@ -495,12 +493,12 @@ public class DELEGATIONEVENTMODEL7104prog17 extends Applet implements ActionList
 
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `11. Java Program to Create a List Box to Select Multiple Items and Display it in the Frame`,
-                solution : ``,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `12. Java Program to Display a Message in a New Frame`,
@@ -545,7 +543,7 @@ class Message implements ActionListener
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `13. Java Program to Close the Frame using WindowAdapter Class`,
@@ -614,7 +612,7 @@ class Window_Adapter extends WindowAdapter
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `14. Java Program to Check Which Fonts are Available in a Local System`,
@@ -632,19 +630,19 @@ class Fonts_Available
 	}
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `15. Java Program to Display Text in Different Fonts`,
                 solution : `
                 
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `16. Java Program to Change Frame Background Color as Cyan`,
-                solution : ``,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `17. Java Program to Change the Applet Background Colour when Button Clicked`,
@@ -737,22 +735,22 @@ class Check_Box implements ActionListener
 	}
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `18. Java Program to Display Several Dots on the Screen Continuously`,
-                solution : ``,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {
                 problem : `19. Java Program to Validate the TextField for only entering numbers using KeyListener`,
-                solution : ``,
-                comeout : ``
+                solution : null,
+                comeout : null
             },
             {    
                 problem : `20. Java Program to Validate the TextField for only entering email id using KeyAdapte`,
-                solution : ``,
-                comeout : ``
+                solution : null,
+                comeout : null
             }
         ]
     // programData6 : delegation event model
