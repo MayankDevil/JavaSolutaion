@@ -1,0 +1,197 @@
+/*
+-   JavaSolution
+-   https://github.com/MayankDevil/
+-   Developed by Mayank
+-   CSS : ./css/overwrite.css
+*/
+*{
+    user-select: text;
+    margin:0;
+    padding: 0;
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji";
+    color:var(--gary);
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+:root
+{
+    --white: #fffbfb;
+    --black:#000000;
+    --blue:#17a2b8;
+    --red:#fc5c65;
+    --green:#16a085;
+    --gold:#ffbe76;
+    --dark:#343a40;
+    --light:#f8f9fa;
+    --gray:#6c757d;
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb
+{
+    background: var(--dark);
+}
+::placeholder
+{
+    color:var(--red);
+}
+::selection
+{
+    color:var(--light);
+    background: var(--red);
+}
+/*
+    comman css -----------------
+*/
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1
+{
+    padding: 1rem 0;
+    color: var(--black);
+    font-weight: normal;
+    line-height: 2.5rem;
+}
+h2
+{
+    padding: 1rem;
+    font-weight: normal;
+    color: var(--black);
+}
+h3
+{
+    padding: 1rem;
+    font-weight: normal;
+}
+h4
+{
+    padding: 1rem 0;
+    font-size: 1rem;
+    color:var(--black);
+}
+p
+{
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color:var(--dark);
+}
+img
+{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    object-fit: contain;
+}
+.btn
+{
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1rem;
+    color: var(--light);
+    background: var(--red);
+    border-radius: 1rem;
+}
+.btn:hover
+{
+    opacity: 0.9;
+    box-shadow: 1px 1px 5px var(--gray);
+}
+/*
+    search css -----------------------
+*/
+#search
+{
+    padding: 1rem;
+    background:var(--black);
+}
+#search > .container
+{
+    width: 100%;
+    margin:1rem auto;
+}
+#search #bar
+{
+    width: 100%;
+    padding:1rem 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--blue);
+    background:var(--white);
+    border: 1px groove var(--red);
+    border-radius: 2rem;
+}
+#search #pointer
+{
+    padding: 1rem;
+    color:var(--red);
+    font-weight: bold;
+    background: transparent;
+    border-radius:  1rem 0 0 1rem;
+}
+/*
+    content css ----------------------
+*/
+#content
+{
+    margin: 3rem auto;
+}
+#content .container
+{
+    background: var(--white);
+}
+#content .container details
+{
+    margin: 1rem auto;
+}
+#content .container details summary
+{
+    padding: 1rem;
+    line-height: 1.5rem;
+    background:var(--gold);
+}
+/* #content .container summary:hover
+{
+} */
+#content .container details summary article
+{
+    padding: 1rem 0;
+}
+
+details article div
+{
+    color: var(--dark);
+    background: var(--light);
+    padding: 1rem;
+}
+
+#content .console
+{
+    user-select: text;
+    margin: 2rem 1rem;
+    padding: 1rem;
+    /* font-size: 14px; */
+    /* font-family:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+    color: var(--white);
+    background: var(--black);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px var(--dark);
+}
+#content .output
+{
+    padding: 1rem;
+    line-height: 2rem;
+    color:var(--red);
+}
+/*
+    the end ==========================
+*/
