@@ -37,7 +37,7 @@ class Test
     }
 }
                 `,
-                comeout : ``
+                comeout : `Functions/function1_7024.png`
             },
             {
                 problem : `2. Write a Java method to compute the average of three numbers.`,
@@ -68,7 +68,7 @@ public class function1_7024 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Functions/function2_7100.png`
             },
             {
                 problem : `3. Write a Java method to display the middle character of a string. Note: a) If the length of the string is odd there will be two middle characters. b) If the length of the string is even there will be one middle character.`,
@@ -95,15 +95,13 @@ class MiddleCharacter
     }
 }
                 `,
-                comeout : ``
+                comeout : `Functions/function3_7019.png`
             },
             {
                 problem : `4. Write a Java method to count all the words in a string.`,
                 solution : `
 class a
-
 {
-
 static int countWord(String s)
 {
 int t=1;
@@ -126,7 +124,7 @@ System.out.println(countWord("Hello How are you"));
 
 }
                 `,
-                comeout : ``
+                comeout : `Functions/functions4_7007.png`
             },
             {
                 problem : `5. Write a Java method to compute the future investment value at a given interest rate for a specified number of years.`,
@@ -164,7 +162,7 @@ class FutureInvestmentValue {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Functions/Function5_7057.png`
             },
             {
                 problem : `6. Write a Java method to print characters between two characters (i.e. A to P).`,
@@ -192,7 +190,7 @@ class Between
     }
 }
                 `,
-                comeout : ``
+                comeout : `Functions/Functions6_7100.png`
             },
             {
                 problem : `7. Write a Java method to check whether a string is a valid password.`,
@@ -222,7 +220,7 @@ public class functions_09_7032 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Functions/7102function7.png`
             },
             {
                 problem : `8. Write a Java method to display the current date and time.`,
@@ -242,7 +240,7 @@ class DateTimeExample {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Functions/7077Function8.png`
             },
             {
                 problem : `9. Write a Java method to find all twin prime numbers less than 100.`,
@@ -265,7 +263,7 @@ class G{
     }
 }
                 `,
-                comeout : ``
+                comeout : `Functions/7025function9.png`
             },
             {
                 problem : `10. Write a Java method to count the number of digits in an integer with the value 2. The integer may be assumed to be non-negative.`,
@@ -292,7 +290,7 @@ public class DigitCounter {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Functions/7006functions10.png`
             },
             {
                 problem : `11. Write a Java method that accepts three integers and checks whether they are consecutive or not. Returns true or false.`,
@@ -320,13 +318,11 @@ return (max_num - middle_num) == 1 && (middle_num - min_num == 1);
 }
 } 
                 `,
-                comeout : ``
+                comeout : `Functions/7083Functions11.png`
             },
             {
                 problem : `12. Write a Java method that accepts three integers and returns true if one is the middle point between the other two integers, otherwise false`,
-                solution : `
-                
-                `,
+                solution : null,
                 comeout : ``
             },
             {
@@ -353,7 +349,7 @@ class Test
     }
 }
             `,
-                comeout : `false\ntrue`
+                comeout : `Functions/7025function13.png`
             },
         ]
     // programData8 : functions

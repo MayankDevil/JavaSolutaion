@@ -49,7 +49,7 @@ class string1 {
 	} 
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7017String1.png`
             },
             {
                 problem : `2. Program to perform Deep Copy for String?`,
@@ -82,7 +82,7 @@ System.out.println("The value of x is: " + obj1.x);
 
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7017string2.png`
             },
             {
                 problem : `3. Program to prove String is immutable programmatically?`,
@@ -107,7 +107,7 @@ class ProveStringImmutable {
     }  
 }  
                 `,
-                comeout : ``
+                comeout : `Stromgs/7105_Strings_3.png`
             },
             {
                 problem : `4. Program to remove all occurrences of a given character from input String?`,
@@ -136,7 +136,7 @@ class Removecharacter {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7023Strings4.png`
             },
             {
                 problem : `5. Program to append the string using StringBuffer class`,
@@ -163,7 +163,7 @@ class s {
 	} 
 } 
                 `,
-                comeout : ``
+                comeout : `Strings/7038String5.png`
             },
             {
                 problem : `6. Program to insert the string using StringBuffer class`,
@@ -181,7 +181,7 @@ class Insert {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7073_string6.png`
             },
             {
                 problem : `7. Program to Add Characters to a String`,
@@ -202,7 +202,7 @@ class Add{
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7073_string7.png`
             },
             {
                 problem : `8. Program to Add Characters to a String`,
@@ -220,7 +220,7 @@ class AddCharactersToString {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7055string8.png`
             },
             {
                 problem : `9. Program to Check Anagram (Two Strings are called the anagram if they contain the same characters. However, the order or sequence of the characters can be different.)`,
@@ -254,7 +254,7 @@ class Anagram{
     }  
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7025string9.png`
             },
             {
                 problem : `10. Program to check whether a string is a Palindrome`,
@@ -283,7 +283,7 @@ class PalindromeString10
     }    
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7017String10.png`
             },
             {
                 problem : `11. Program to Convert Enum to String`,
@@ -328,7 +328,7 @@ class GFG {
     } 
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7017String11.png`
             },
             {
                 problem : `12. Program to Convert String to String Array`,
@@ -344,7 +344,7 @@ class StringToArray {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7055string12.png`
             },
             {
                 problem : `13. Program to count number of words in a String?`,
@@ -376,7 +376,7 @@ class Count{
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7073_string13.png`
             },
             {
                 problem : `14. Program to count the total number of characters in a string`,
@@ -405,14 +405,44 @@ class CountC{
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7105_Strings_14.png`
             },
             {
                 problem : `15. Program to count the total number of punctuation characters exists in a String`,
                 solution : `
-                
+class PunctuationCount {
+    public static void main(String[] args) {
+        // Sample string
+        String inputString = "Hello, world! This is a sample string.";
+
+        // Count the total number of punctuation characters
+        int punctuationCount = countPunctuation(inputString);
+
+        // Display the result
+        System.out.println("Total number of punctuation characters: " + punctuationCount);
+    }
+
+    // Function to count the total number of punctuation characters in a string
+    static int countPunctuation(String str) {
+        int count = 0;
+
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+
+            // Check if the character is a punctuation character
+            if (isPunctuation(ch)) {
+                count++;
+            }
+        }
+        return count;
+    }
+    // Function to check if a character is a punctuation character
+    static boolean isPunctuation(char ch) {
+        return !Character.isLetterOrDigit(ch) && !Character.isWhitespace(ch);
+    }
+}
                 `,
-                comeout : ``
+                comeout : `Strings/7107strings15.png`
             },
             {
                 problem : `16. Program to count the total number of vowels and consonants in a string`,
@@ -444,7 +474,7 @@ class A {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7057_String16.png`
             },
             {
                 problem : `17. Program to determine whether a given string is palindrome`,
@@ -473,7 +503,7 @@ class Strings_17
     }    
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7095_21_Strings_17.png`
             },
             {
                 problem : `18. Program to determine whether one string is a rotation of another`,
@@ -502,7 +532,7 @@ class Strings_18 {
     }  
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7095_21_Strings_18.png`
             },
             {
                 problem : `19. Program to divide a string in 'N' equal parts.`,
@@ -532,7 +562,7 @@ class SubsetToString
   }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `20. Program to find all subsets of a string`,
@@ -559,7 +589,7 @@ class StringPermutations {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7072Strings20.png`
             },
             {
                 problem : `21. Program to find all the permutations of a string`,
@@ -586,7 +616,7 @@ class StringPermutations {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7055string21.png`
             },
             {
                 problem : `22. Program to find maximum and minimum occurring character in a string`,
@@ -610,7 +640,7 @@ class String122 {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `23. Program to find Reverse of the string`,
@@ -624,7 +654,7 @@ class A
   }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/strings23_7024.png`
             },
             {
                 problem : `24. Program to find the duplicate characters in a string`,
@@ -643,7 +673,7 @@ class Strings_24{
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7095_21_Strings_24.png`
             },
             {
                 problem : `25. Program to find the duplicate words in a string`,
@@ -673,7 +703,7 @@ class DuplicateWord
     }    
 }    
                 `,
-                comeout : ``
+                comeout : `Strings/7055string25.png`
             },
             {
                 problem : `26. Program to find the frequency of characters`,
@@ -701,7 +731,7 @@ class spro4
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7062Strings26.png`
             },
             {
                 problem : `27. Program to find the largest and smallest word in a string`,
@@ -737,7 +767,7 @@ class WordLength {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7085String27.png`
             },
             {
                 problem : `28. Program to find the longest repeating sequence in a string`,
@@ -780,7 +810,7 @@ class Strings_28
 	}
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `29. Program to find the most repeated word in a text file`,
@@ -841,7 +871,7 @@ import java.util.Map;
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `30. Program to find the number of the words in the given text file`,
@@ -867,7 +897,7 @@ class  spro3
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7062Strings30.png`
             },
             {
                 problem : `31. Program to Get a Character From the Given String`,
@@ -895,7 +925,7 @@ class A {
 	} 
 } 
                 `,
-                comeout : ``
+                comeout : `Strings/7025String31.png`
             },
             {
                 problem : `32. Program to Insert a string into another string`,
@@ -936,7 +966,7 @@ public class String32 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7105_Strings_32.png`
             },
             {
                 problem : `33. Program to Iterate Over Characters in String`,
@@ -964,7 +994,7 @@ class Strings_33 {
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `34. Program to Print a New Line in String`,
@@ -977,7 +1007,7 @@ public class NewLineString {
 	}
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7075StringP34.png`
             },
             {
                 problem : `35. Program to Print even length words`,
@@ -996,7 +1026,7 @@ public class EvenLength {
     }  
 }  
                 `,
-                comeout : ``
+                comeout : `Strings/7069string35.png`
             },
             {
                 problem : `36. Program to print smallest and biggest possible palindrome word in a given string`,
@@ -1111,7 +1141,7 @@ class Strings_36 {
     } 
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7095_21_Strings_36.png`
             },
             {
                 problem : `37. Program to remove all the white spaces from a string`,
@@ -1128,7 +1158,7 @@ class RemoveWhiteSpaces {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7072Strings37.png`
             },
             {
                 problem : `38. Program to replace lower-case characters with upper-case and vice-versa`,
@@ -1155,7 +1185,7 @@ public class stringvv {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7031string38.png`
             },
             {
                 problem : `39. Program to replace the spaces of a string with a specific character`,
@@ -1173,7 +1203,7 @@ public class ReplaceSpace
     }  
 }  
                 `,
-                comeout : ``
+                comeout : `Strings/7096strings39.png`
             },
             {
                 problem : `40. Program to separate the Individual Characters from a String`,
@@ -1193,7 +1223,7 @@ public class IndividualCharacters
     }  
 }  
                 `,
-                comeout : ``
+                comeout : `Strings/7006strings40.png`
             },
             {
                 problem : `41. Program to Splitting into a number of sub-strings`,
@@ -1228,7 +1258,7 @@ public class String41 {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7025string41.png`
             },
             {
                 problem : `42. Program to swap two string variables without using a third or temp variable.`,
@@ -1245,7 +1275,7 @@ class B {
     }  
 }  
                 `,
-                comeout : ``
+                comeout : `Strings/7105_Strings_42.png`
             },
             {
                 problem : `43. Program to Swapping Pair of Characters (Enter the string from the user and enter the characters that you want to swap with one another)`,
@@ -1292,7 +1322,7 @@ class CharacterSwapper {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7085String43.png`
             },
             {
                 problem : `44. Read two String user input and check if the first contains second?`,
@@ -1329,7 +1359,7 @@ class string {
 }
 
                 `,
-                comeout : ``
+                comeout : `Strings/7086String44.png`
             },
             {
                 problem : `45. Reserve String without reverse() function`,
@@ -1351,7 +1381,7 @@ class spro2
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7077string45.png`
             },
             {
                 problem : `46. Reverse String Word by Word`,
@@ -1378,7 +1408,7 @@ return reverseString(s.substring(1)) + s.charAt(0);
 }  
 }  
                 `,
-                comeout : ``
+                comeout : `Strings/strings_46_7032.png`
             },
             {
                 problem : `47. Write a program to check if two Strings are created with the same characters?`,
@@ -1424,7 +1454,7 @@ public static void main(String[] args)
 }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/7105_Strings_47.png`
             },
             {
                 problem : `48. Write a program to find out the first non-repeated character from the input String?`,
@@ -1452,7 +1482,7 @@ class Strings_48
     }
 }
                 `,
-                comeout : ``
+                comeout : null
             },
             {
                 problem : `49. Create an object StringBuffer class to reverse the string.`,
@@ -1478,7 +1508,7 @@ class StringBufferReverse {
     }
 }
                 `,
-                comeout : ``
+                comeout : `Strings/strings7048_49.png`
             },
             {
                 problem : `50. Create an object StringBuffer class to show functionality of insert, append, delete and replace functions.`,
@@ -1516,7 +1546,7 @@ class Test
     }
 }
             `,
-                comeout : `wrongion insert()\nIf you are like follow me at https://github.com/MayankDevil/`
+                comeout : `Strings/7027String50.png`
 
             }
         ]

@@ -27,17 +27,48 @@ try
     */
     function programDataDisplay(index)
     {
-        return (`
-            <!-- ${index} -->
+        if (programData[index].solution != null)
+        {
+            if (programData[index].comeout != null)
+            {
+                return (`
+                    <!-- ${index} -->
 
-            <details>
-                <summary> ${programData[index].problem} </summary>
-                <div>
-                    <pre class="console"> ${programData[index].solution} </pre>
-                    <pre class="output"> javac source.java\n java bytecode\n ${programData[index].comeout} </pre>
-                </div>
-            </details>
-        `)
+                    <details>
+                        <summary> ${programData[index].problem} </summary>
+                        <div>
+                            <pre class="console"> ${programData[index].solution} </pre>
+                            <img src='data/java/${programData[index].comeout}' class='output'/>
+                        </div>
+                    </details>
+                `)
+            }
+            else
+            {
+                return (`
+                    <!-- ${index} -->
+
+                    <details>
+                        <summary> ${programData[index].problem} </summary>
+                        <div>
+                            <pre class="console"> ${programData[index].solution} </pre>
+                            <a href='https://mayankdevil.github.io/myData/error.html' class='btn' style='width:100%;border-radius:0'> click to check out </a>
+                        </div>
+                    </details>
+                `)
+            }
+        }
+        else
+        {
+            return (`
+                <!-- ${index} -->
+
+                <details>
+                    <summary> ${programData[index].problem} </summary>
+                    <a href='https://mayankdevil.github.io/myData/bug.html' class='btn' style='width:100%;border-radius:0'> click to check out </a>
+                </details>
+            `)
+        }
     }
     /*
         --------------------------------------------------------------------
@@ -48,7 +79,7 @@ try
     {
         if (i == 0)
         {
-            content.insertAdjacentHTML("beforeend",`<h4> /*  assign program */ </h4>`)
+            content.insertAdjacentHTML("beforeend",`<h4>  assign program [${programData0.length}] </h4>`)
         }
         if (i == programData0.length)
         {
