@@ -39,7 +39,7 @@ public class MySQLConnectionExample {
     }
 }
                 `,
-                comeout : null
+                comeout : `jdbc/1.png`
             },
             {
                 problem: `2. Create the table in the database from Java API.`,
@@ -88,7 +88,7 @@ class DataDefination {
     }
 }
                 `,
-                comeout : null
+                comeout : `jdbc/7044_jdbc_pro2.png`
             },
             {
                 problem: `3. Insert the row in the table in the database from Java API.`,
@@ -110,7 +110,7 @@ System.out.println("Row inserted successfully");}
 catch(SQLException e){System.out.println(e);}
 }}
                 `,
-                comeout : null
+                comeout : `jdbc/3.png`
             },
             {
                 problem: `4. Update the row in the table in the database from Java API.`,
@@ -145,7 +145,7 @@ class DatabaseUpdateWithStatement {
     }
 }
                 `,
-                comeout : null
+                comeout : `jdbc/7001Jdbc4.png`
             },
             {
                 problem: `5. Delete the row in the table in the database from Java API.`,
@@ -197,14 +197,14 @@ class Main {
     }
 }
                 `,
-                comeout : null
+                comeout : `jdbc/7002jdbc5.png`
             },
             {
                 problem: `6. Select multiple rows from the database table in Java API and show the result on the screen.`,
                 solution : `
 
                 `,
-                comeout : null
+                comeout : `jdbc/6.png`
             },
             {
                 problem: `7. Create a Scrollable Readonly Resultset and ask the row number from the user and display that row on the screen.`,
@@ -240,7 +240,7 @@ class DatabaseManager {
     }
 }
                 `,
-                comeout : null
+                comeout : `jdbc/7001Jdbc7.png`
             },
             {
                 problem: `8. Create a Scrollable Updateable Resultset and insert a new row, update an existing row and delete the row from Resultset and also the changes should be made to the database also. The values should be inserted, updated and deleted by the user only.`,
@@ -330,7 +330,7 @@ class ScrollableResultSetExample {
     }
 }
                 `,
-                comeout : null
+                comeout : `jdbc/7001Jdbc8.png`
             },
             {
                 problem: `9. Create a Java Program to show, insert, update, delete of the table in Java API through PreparedStatement.`,
@@ -400,7 +400,7 @@ class Db{
     }
 }
                 `,
-                comeout : null
+                comeout : `jdbc/7074JDBC-9.png`
             }
         ]
     // programData13 : jdbc

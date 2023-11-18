@@ -12,13 +12,37 @@ try
     var programData4 = [
             {
                 problem : `1. Create an applet showing the string "Hello World" which is embedded in the HTML page.`,
-                solution : ``,
-                comeout : ``
+                solution : `
+import java.applet.Applet;
+import java.awt.Graphics;
+public class pro1 extends Applet
+{
+    public void paint (Graphics g)
+    {
+        g.drawString ("Hello World", 20, 20);
+    }
+}
+                `,
+                comeout : `applet/j1.png`
             },
             {
                 problem : `2. Create an applet showing the string "Hello World" which is executed by an appletviewer.`,
-                solution : ``,
-                comeout : ``
+                solution : `
+import java.applet.Applet;
+import java.awt.*;
+
+ //<applet code= pro2 width= 600 height=500 ></applet>
+
+ public class pro2 extends Applet {
+   
+    public void paint(Graphics g){
+        g.setColor(Color.red);
+        g.drawString("hello world", 20, 20);
+    }
+    
+}
+                `,
+                comeout : `applet/j2.png`
             },
             {
                 problem : `3. Create an applet in Java to draw a circle.`,
@@ -53,12 +77,29 @@ public class a7039applets3 extends Applet {
     }
 }
                 `,
-                comeout : ``
+                comeout : `applet/j3.png`
             },
             {
                 problem : `4. Create an applet in Java to draw a polygon.`,
-                solution : ``,
-                comeout : ``
+                solution : `
+import java.applet.Applet;
+import java.awt.*;
+ public class pro4 extends Applet
+ {
+ 
+public void paint( Graphics g )
+{
+int x[] = { 20, 40, 50, 30, 20, 15 }; 
+int y[] = { 50, 50, 60, 80, 80, 60 }; 
+int num=5;
+g.setColor(Color.blue); 
+g.drawPolygon(x,y, num);
+ 
+}
+}
+//<applet code= pro4 width= 600 height=500 ></applet>
+                `,
+                comeout : `applet/j4.png`
             },
             {
                 problem : `5. Create an applet in Java to draw a rectangle.`,
@@ -73,17 +114,51 @@ public class RectangleApplet extends Applet {
 }
 /*<applet code="RectangleApplet.class" width="400" height="400"></applet> */
                 `,
-                comeout : ``
+                comeout : `applet/j5.png`
             },
             {
                 problem : `6. Create an applet in Java to draw a square.`,
-                solution : ``,
-                comeout : ``
+                solution : `
+import java.applet.*;
+import java.awt.*;
+
+public class pro6 extends Applet {
+    public void paint(Graphics g) {
+        g.drawRect(50, 50, 200, 200);
+    }
+}
+/*<applet code="pro6" width="400" height="400"></applet> */
+                `,
+                comeout : `applet/j6.png`
             },
             {
                 problem : `7. Create an applet in Java to draw 4 concentric circles.`,
-                solution : ``,
-                comeout : ``
+                solution : `
+/*Java Applet to Print Concentric Circles using Applet*/
+import java.applet.*;
+import java.awt.*;
+public class pro7 extends Applet
+{
+    //Initialize the applet
+    public void init()
+    {
+	setBackground(Color.yellow);
+    }
+    //Draw cocentric circle
+    public void paint(Graphics g)
+    {
+	g.setColor(Color.red);
+	int rad=25;
+	int dia=50;
+	for(int i=0;i<4;i++)
+	{
+	    g.drawOval(250-(i*rad),250-(i*rad),(i+1)*dia,(i+1)*dia);
+	}
+    }
+}
+/*<applet code = pro7 width=500 height=500></applet>*/
+                `,
+                comeout : `applet/j7.png`
             },
             {
                 problem : `8. Create an applet in Java to draw a line.`,
@@ -100,7 +175,7 @@ g.drawLine(20,30,20,300);  }}
 
 /* <applet code="GraphicsDemo.class" width="300" height="300">  */
                 `,
-                comeout : ``
+                comeout : `applet/j8.png`
             },
             {
                 problem : `9. Create an applet in Java to draw an oval.`,
@@ -119,7 +194,7 @@ class Applet_9 extends Applet {
     }
 }               
                 `,
-                comeout : ``
+                comeout : `applet/j9.png`
             },
             {
                 problem : `10. Create an applet in Java to draw an arc.`,
@@ -140,7 +215,7 @@ public class applletarc
     }
 }
                 `,
-                comeout : ``
+                comeout : `applet/j10.png`
             },
             {
                 problem : `11. Create an applet in Java to change the background color.`,
@@ -168,7 +243,7 @@ public class Applet7104prog11 extends Applet {
      */
 }
                 `,
-                comeout : ``
+                comeout : `applet/j11.png`
             },
             {
                 problem : `12. Create an applet in Java to draw a rounded rectangle.`,
@@ -196,7 +271,7 @@ class Applet_12 extends Applet {
     }
 }
                 `,
-                comeout : ``
+                comeout : `applet/j12.png`
             },
             {
                 problem : `13. Create an applet in Java to set font.`,
@@ -246,7 +321,7 @@ public class SimpleFontSetter extends JFrame {
     }
 }
                 `,
-                comeout : ``
+                comeout : `applet/j13.png`
             },
             {
                 problem : `14. Create an applet to display a digital clock.`,
@@ -289,7 +364,7 @@ public class DigitalClock extends JFrame {
     }
 }
                 `,
-                comeout : ``
+                comeout : `applet/j14.png`
             },
             {
                 problem : `15. Java Program to Draw a Smiling Face using Graphics Class Methods`,
@@ -313,7 +388,7 @@ public class appro1 extends Applet
    }
 }
                 `,
-                comeout : ``
+                comeout : `applet/j15.png`
             }
         ]
     // programData4 : applets

@@ -93,7 +93,7 @@ class Login implements ActionListener
 	}
 }
                 `,
-                comeout : null
+                comeout : `event/dlm2.png`
             },
             {
                 problem : `3. Java Program to Create a Button and Display Image in the Frame when Clicked`,
@@ -129,7 +129,7 @@ public class event {
     }
 }
                 `,
-                comeout : null
+                comeout : `event/7031delegationeventmodel3.png`
             },
             {
                 problem : `4. Java Program to Create 2 Radio Buttons and Display Selected Button Label`,
@@ -188,7 +188,7 @@ class Radio_Button implements ActionListener
 	}
 }
                 `,
-                comeout : null
+                comeout : `event/7098DelegationEventModel4.png`
             },
             {
                 problem : `5. Java Program to Handle KeyBoardEvent`,
@@ -248,7 +248,7 @@ class Main implements KeyListener {
     }
 }
                 `,
-                comeout : null
+                comeout : `event/7002delegationeventmodel5.png`
             },
             {
                 problem : `6. Java Program to Handle MouseEvent`,
@@ -283,7 +283,7 @@ public  void mouseEntered(java.awt.event.MouseEvent me){System.out.println("butt
 public  void mouseExited(java.awt.event.MouseEvent me){System.out.println("button exited");}
 }
                 `,
-                comeout : null
+                comeout : `event/dlm6.png`
             },
             {
                 problem : `7. Java Program to Get and Set State and Get Label of a Check Box`,
@@ -376,7 +376,7 @@ class Check_Box implements ActionListener
 	}
 }
                 `,
-                comeout : null
+                comeout : `event/7098DelegationEventModel7.png`
             },
             {
                 problem : `8. Java Program to Create Check Boxes and Radio Buttons`,
@@ -453,7 +453,7 @@ class Button_Checkbox implements ActionListener,ItemListener
     }
 }
                 `,
-                comeout : null
+                comeout : `event/7098DelegationEventModel8.png`
             },
             {
                 problem : `9. Java Program to Create and Switch between Frames using Buttons`,
@@ -543,7 +543,7 @@ class Message implements ActionListener
     }
 }
                 `,
-                comeout : null
+                comeout : `event/7098DelegationEventModel12.png`
             },
             {
                 problem : `13. Java Program to Close the Frame using WindowAdapter Class`,
@@ -612,7 +612,7 @@ class Window_Adapter extends WindowAdapter
     }
 }
                 `,
-                comeout : null
+                comeout : `event/7098DelegationEventModel13.png`
             },
             {
                 problem : `14. Java Program to Check Which Fonts are Available in a Local System`,
@@ -630,13 +630,11 @@ class Fonts_Available
 	}
 }
                 `,
-                comeout : null
+                comeout : `event/7098DelegationEventModel14.png`
             },
             {
                 problem : `15. Java Program to Display Text in Different Fonts`,
-                solution : `
-                
-                `,
+                solution : null,
                 comeout : null
             },
             {
