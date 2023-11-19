@@ -753,7 +753,7 @@ class Check_Box implements ActionListener
         ]
     // programData6 : delegation event model
 
-    document.title = `MayankDevil`
+    // document.title = `MayankDevil`
 }
 catch (error)
 {
