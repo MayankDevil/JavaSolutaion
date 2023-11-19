@@ -1207,7 +1207,7 @@ class Test
         ]
     // programData10 : inheritance
 
-    document.title = `MayankDevil`
+    // document.title = `MayankDevil`
 }
 catch (error)
 {
