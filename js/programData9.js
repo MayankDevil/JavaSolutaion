@@ -684,7 +684,7 @@ class Calculator extends java.awt.Frame
         ]
     // programData9 : awt
 
-    // document.title = `MayankDevil`
+    document.title = `MayankDevil`
 }
 catch (error)
 {
