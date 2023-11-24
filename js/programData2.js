@@ -656,7 +656,7 @@ System.out.println(array[i]);
         ]
     // programData2 : 1d array
 
-    // document.title = `MayankDevil`
+    document.title = `MayankDevil`
 }
 catch (error)
 {
